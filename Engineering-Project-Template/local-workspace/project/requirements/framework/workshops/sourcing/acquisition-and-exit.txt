@@ -1,0 +1,11 @@
+Define what a supplier must deliver and what a project must retain
+
+Start at the contract boundary. Identify what only the supplier can measure, what incoming inspection can establish and what appears only after integration. Specify deliverables, operating envelope, evidence format, revision identity and the time at which evidence must be available to make a purchase or production decision.
+
+Compare three failure cases. A supplier changes an internal component, loses a specialist tool, or ends support for the product. For each case, identify the earliest project decision affected. Derive change notice, compatibility, repair, export or replacement obligations from that decision. Avoid a generic demand for all supplier documentation when a small set of items permits reconstruction.
+
+Example. A purchased drive reports torque in nominal units. Two variants share a connector and have different scaling. Require positive identification before applying a configuration, define behavior for an unknown variant, and require a conformance specimen with the revision evidence. Test the mixed stock a maintainer will actually encounter.
+
+Trace one recovery without supplier access. Establish who holds essential calibration information, interface descriptions, consumables, entitlement records and a usable export. Price the effort to switch and account for lost operating time. Put a date against the last order or the last supported version that can meet the transition window.
+
+Exit with named owners for acceptance, ongoing compatibility and supplier exit. Record the limits of supplier evidence and which system-level tests remain with the integrating project.

@@ -1,0 +1,17 @@
+Access boundaries and tenant isolation
+
+Goal
+A resource owner can demonstrate who may administer a tenant, how that authority expires, and how another tenant is kept outside the boundary. A tenant can be a project, customer, facility or mission whose access must be independently controlled.
+
+Implementation
+1. Draw the path from a person or workload to the resource. Mark the identity issuer, credential holder, authorization point, management interface and audit destination. Write one row per principal, action and resource. Include support staff, automation, backup operators and emergency custodians. Identify which tenant properties come from a trusted authority.
+2. Bind each grant to an environment, tenant and purpose. Give deployment jobs a separate identity from the running service. Scope federation by issuer, audience and approved workload identity. Set an expiry for temporary support access. Protect recovery credentials through a custody path that remains usable during an identity-provider outage.
+3. Test with two disposable tenants. Read each tenant's own object, attempt to list the other tenant's identifiers, present a credential issued to a different service, then revoke a test administrator. Exercise console and direct management interfaces separately. Measure how long cached sessions remain usable and compare that interval with the project's revocation objective.
+4. Retain principal, operation, resource, policy revision, outcome and correlation identifier for each test. Redact credential material. A cross-tenant denial that exposes object names needs its own finding and owner.
+
+Handoff
+Give on-call staff the privilege request path, revocation method and emergency access drill. Record who reviews grants when staff or suppliers leave.
+
+Reference
+NIST SP 800-207, Zero Trust Architecture
+https://csrc.nist.gov/pubs/sp/800/207/final

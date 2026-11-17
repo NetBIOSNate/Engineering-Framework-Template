@@ -1,0 +1,20 @@
+Worksheet | Trace and coverage register
+
+Use one row per relationship when several elements or cases contribute. Keep the baseline and applicability visible. Trace links answer specific questions about responsibility and evidence.
+
+Agreement or release       [Baseline ID, date, included variants]
+Decision owner             [Authority and scope]
+Record system              [Authoritative location of records and related revisions]
+
+Need ID | Requirement @ revision | Allocation or interface | Decision | Verification case | Evidence @ configuration | Disposition / owner
+[need]  | [req and revision]     | [element or IF ID]      | [ID]     | [case and method] | [observed result or pending] | [decision and person]
+
+Supplemental dependency rows
+From record @ revision | Link verb | To record @ revision | Applicability | Rationale
+[origin]               | [derives, allocates to, checks, supersedes, validates] | [target] | [mode/variant] | [reason]
+
+Coverage review
+1. Sample a top-level need. Can a builder identify an allocated obligation and a verifier identify a case that could fail? Follow every contributing branch for a whole-system bound.
+2. Sample an evidence item. Does the actual tested configuration establish the claim for every configuration being accepted? State any justified equivalence.
+3. List orphan requirements, unresolved assumptions, missing evidence and requirements fully verified but awaiting validation. Assign an owner and a disposition to each. Preserve rows for requirements deferred from the release with a reason and the affected user.
+4. Before release, make the reviewer walk one failed case upstream to the acceptance authority. A link to a test procedure alone earns a planned status.

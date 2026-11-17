@@ -1,0 +1,11 @@
+Govern a baseline without freezing discovery
+
+Define what an approval authorizes. A concept baseline can authorize experiments. A procurement baseline can authorize a supplier commitment. A release baseline can authorize operation in a named configuration and environment. Write the permitted action and accountable authority in the decision record.
+
+Use a small set of states whose transitions have consequences. Proposed records can change during discovery. Reviewed records have a checked source and measurement rule. Baselined records belong to an identified agreement. Superseded records retain the link to their replacement and the releases that relied on them. Record verification and operational acceptance separately. A requirement can be approved and still lack verifying evidence.
+
+When a result misses its limit, establish which case, version and population failed. Correct a defect, revise an unjustified limit through its owner, restrict the operating envelope, or seek an exception from the person carrying the residual exposure. Document scope, compensating measures, expiry, signal to withdraw and owner. Check that a supplier, sponsor or oversight body with binding authority can actually grant the proposed exception.
+
+Example. A batch export meets its deadline for three sites and misses it for a fourth with a slower link. A release decision could admit the three named sites, queue the fourth for an improved transfer strategy and assign a repeat trial. Retain the failed observation against the fourth site's configuration. Averaging the sites obscures the decision the owner must make.
+
+Review the oldest open exception and one superseded baseline. Another planner should be able to identify what was authorized, what is still exposed and who can act when the expiry event occurs.

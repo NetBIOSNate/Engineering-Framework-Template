@@ -1,0 +1,13 @@
+Inspection bench | Allocate the release decision
+
+A requirement, a design choice and a measurement plan each answer a different question. Compare the obligations below with decision D-01. Values and IDs are illustrative.
+
+R-01 rev 1 derives from N-01. At a release request the release service shall publish a result only when the authoritative eligibility record covers the entire capture-time uncertainty interval for its identified instrument. The eligibility interval includes its start and excludes its end. If either time bound or eligibility history is unknown, the result stays held. The quality lead owns the rule.
+
+R-02 rev 1 derives from N-02. Starting with an empty spool, during an outage up to two hours the bench shall retain every acknowledged capture through one power cycle at arrival rates up to six records per minute. The operator owns the continuity need and the bench lead owns the allocation. Acknowledgement follows durable storage. At the stated maximum the bench needs capacity for at least 720 records, before allowances for metadata, variation in encoded size and recovery work.
+
+R-03 rev 1 derives from N-01 and N-02. While a captured result awaits release confirmation the bench shall display its status as held whenever the operator retrieves it. Only a confirmed publication may produce the released indication. The operator and the recipient agree on these meanings.
+
+D-01. Compare local release from a cache with durable local capture followed by authoritative release. A cached copy can miss a suspension issued while disconnected. Select local capture plus central release. Production planners accept the delay for this trial. Reopen the choice if same-shift release becomes a binding obligation.
+
+IF-01. Bench transfers a stable capture identifier, instrument, time bounds and measurement. The receiver returns the existing disposition on an identical retry. Conflicting content with the same identifier enters investigation. The bench lead and release lead own opposite ends. Exercise lost acknowledgements before approving either endpoint.

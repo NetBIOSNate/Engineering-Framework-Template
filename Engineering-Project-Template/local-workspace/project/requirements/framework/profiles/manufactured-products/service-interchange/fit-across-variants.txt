@@ -1,0 +1,9 @@
+Keep replacement parts interchangeable in the field
+
+Use when service personnel replace one member of an assembly across product revisions. The design authority and service owner agree on the installation boundary, permitted tools, attainable alignment, load conditions and acceptable fit. Identify whether the replacement has to fit every supported installed combination or a labelled subset.
+
+1. Trace a dimensional chain from the locating surface through all mating parts. Give every dimension units, datum, tolerance and environmental range. Define assumptions about coating, wear, fixture alignment and thermal expansion. Include service access for measuring the result.
+2. Compare extremes before selecting the supplier tolerance. For an illustrative 20.00 +/- 0.10 mm opening and 19.80 +/- 0.08 mm insert, minimum clearance is 19.90 - 19.88 = 0.02 mm. If the service procedure requires at least 0.05 mm, the nominal 0.20 mm clearance conceals a 0.03 mm shortfall even before environmental allowances.
+3. Compare relocating the datum, changing the service clearance or tightening manufacturing tolerance. Record which choice changes tooling, inspection and the supported spare-parts catalogue.
+
+Build a fit matrix keyed to part and assembly revisions. Verify boundary combinations against the service procedure at agreed environmental extremes, accounting for gauge uncertainty. Reopen when a substitution, finish, process or service tool changes. Record any excluded combination where dispatchers select replacement parts.

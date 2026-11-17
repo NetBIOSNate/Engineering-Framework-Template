@@ -1,0 +1,11 @@
+Turn a need into a verifiable obligation
+
+Give two independent reviewers enough information to judge the same observation consistently. Start with a named subject, a trigger or mode, one observable response and the limit that defines success. Keep the rationale, source and proposed verification method alongside the statement.
+
+1. Fix the observation points, units and population. Specify both ends of any interval and the treatment of retries, canceled work and missing observations.
+2. Split clauses when different owners could satisfy them independently. Retain cross-cutting constraints by linking each derived obligation to its parent. Record the reason for any design constraint and the authority that can change it.
+3. Use a boundary case to challenge each adjective. Ask what a tester would report when the observation lands exactly on the stated limit or no qualifying event occurs.
+
+Example. Replace “provide prompt acknowledgment” with “During the agreed peak-hour workload, the receiving station shall acknowledge at least 990 of each acceptance run's 1,000 valid submissions within two seconds of arrival at its input boundary.” Count missing acknowledgments as misses. Link the workload definition and the independent clock or shared timestamp source. An empty run has insufficient evidence.
+
+Review record. Have the requirement owner and verifier calculate the disposition of the same borderline run independently. Resolve divergent interpretations before allocating the obligation.

@@ -1,0 +1,18 @@
+Inspection bench | Change the design and authorize a bounded use
+
+CR-01 changes the release comparison to check both uncertainty bounds and the half-open eligibility interval. R-01 rev 1 already expresses this rule. Keep its revision and record the implementation change in release ruleset 2. Candidate C2 uses the same bench build as C1 and the revised service. The release lead owns correction. The quality lead owns acceptance.
+
+E-04 on C2. Repeat C-01 using the original fixture, an exact start, an exact end, an interval entirely outside eligibility and a retry with conflicting content. The exact start point qualifies, the exact end point stays held, and every interval extending beyond eligibility stays held. The original duplicate retry produces one published A. Conflicting content enters investigation. These fictional observations support R-01 within the fixture's scope.
+
+Evidence credit. E-02 remains relevant to R-02 because the capture hardware, bench build, local storage format and outage envelope are identical. Repeat C-03 with the real service, since a service change alters what the bench receives. E-05 shows the correct visible transition for A and a continued hold for B and C. Retain the failed E-01 against C1.
+
+V-01 validates N-01 and N-02. A relief operator captures records during the outage, locates held work and identifies the item that may be sent after reconnection. A production planner uses the recipient view to find the same cleared record without assistance. Both complete the scenario. The planner requests an escalation procedure for holds extending across a shift. Assign that request to the operations owner.
+
+Decision AC-01. The quality lead authorizes a supervised trial of C2 on one named bench within A-01. Multi-bench operation and longer outages remain outside that decision. Withdraw trial release if a held record appears at the recipient boundary. The operations owner preserves the affected identifiers for reconciliation.
+
+Trace rehearsal
+N-01 -> R-01 -> D-01 / IF-01 -> C-01 -> E-01 failed on C1 -> CR-01 -> E-04 on C2 -> AC-01.
+N-02 -> R-02 -> bench allocation -> C-02 -> E-02 -> credit for C2 -> V-01 -> AC-01.
+N-01 and N-02 -> R-03 -> display allocation -> C-03 -> E-03 and E-05 -> V-01 -> AC-01.
+
+Practice question. If a replacement bench cannot bound clock error after restart, identify the first affected requirement and the change to the release evidence. The rule in R-01 holds captures with unknown bounds. Investigate how many holds the new behavior creates before extending the operational decision.

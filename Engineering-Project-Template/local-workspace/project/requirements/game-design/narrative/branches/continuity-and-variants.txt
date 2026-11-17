@@ -1,0 +1,10 @@
+Specify continuity across branching stories
+
+Reachable story states should preserve the meaning of prior choices across save, resume, localization and content changes.
+
+1. Identify each decision with enduring consequences. Give it a stable fact or state identity and define who can change it. Separate the recorded choice from localized dialogue, animation and other ways it is presented.
+2. Sketch a branch-and-merge graph. At each merge, list facts the next scene assumes. If either witness can provide a clue, test both paths and the path where neither is available. Decide whether the latter blocks progress, triggers an alternate scene or signals an authoring error.
+3. Trace interruption after recording a choice and before displaying its consequence. Agree how the participant recovers the context and how repeated loading treats one-time effects. Include alternative presentation for clues that depend on color, sound or timed input.
+4. For a content revision, enumerate saved states entering a removed branch. Define a compatible continuation, deliberate migration or supported endpoint. Record who approves any changed meaning.
+
+Review output. A reachability table links choice, required facts, allowed successor and evidence for a complete path in each supported variant. The method also applies to guided training and procedural simulations.

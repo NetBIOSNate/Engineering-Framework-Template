@@ -1,0 +1,11 @@
+Implement the framework on a real decision
+
+Pilot the framework at a decision that has a date and an owner. A supplier handoff, prototype exit or migration wave exposes missing information sooner than a retrospective documentation exercise. Choose one team that creates records and one independent person who needs to use them.
+
+1. Capture the starting point. Ask the receiving engineer to locate the current requirement, its source, the applicable configuration and the evidence that closes it. Time the search and note where they had to ask the author. Keep the actual questions.
+2. Agree on a minimum record and map each field to a pending decision. Assign editing rights and stable IDs in the team's chosen record system. Define how an approved revision is recovered. Put evidence under its existing custodian and store a reference with the claim.
+3. Run one change through the pilot. Ask the receiving engineer to find affected interfaces, owners and evidence without help. Stage a contradictory case and see whether a reviewer can hold acceptance with a reason.
+4. Compare before and after. A reduction in missing owners matters if it prevents an actual handoff failure. Track time spent maintaining unused fields. Merge or remove a field when its consumers can answer the same decision question another way.
+5. Introduce the resulting convention on a different project type. Record which concepts transferred, which terms needed translation and where a new profile would earn its maintenance cost.
+
+Exit with a named framework steward, an example of a completed decision, open defects and a version policy. A template revision gains an adoption note identifying projects to which it applies and how to preserve older decisions.

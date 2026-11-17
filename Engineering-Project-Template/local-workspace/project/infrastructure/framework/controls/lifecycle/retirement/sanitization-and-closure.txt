@@ -1,0 +1,17 @@
+Infrastructure retirement and media sanitization
+
+Goal
+Retiring a service releases its dependencies and obligations while preserving data and evidence that authorized owners still require.
+
+Implementation
+1. Start with an agreed boundary and decision owner. Trace clients, service accounts, scheduled jobs, private routes, DNS aliases, certificates, monitoring integrations, backup chains, hardware serials, software entitlements and supplier bills. Identify the last consumer by observing a representative use cycle and checking with owners of infrequent jobs. Record retention decisions, active holds and custody transfers before scheduling disposal.
+2. Migrate retained records to their approved owner and verify a representative restore with keys and credentials available to that owner. Freeze changes, drain traffic and watch for residual requests. Test recovery during a defined reversal window. Lowering a DNS TTL only helps after older cached values expire. Keep control of redirect targets and names while external clients can still resolve them.
+3. Remove trust relationships, deployment rights, ingress routes, aliases and stale dependencies in dependency order. Release assignable addresses or external resource names only after references are removed and their expiry has been checked. Revoke stale backup and vendor access. Validate from both a former consumer and an independent monitoring point.
+4. For controlled media, choose a supported sanitization method according to medium, sensitivity and next use. Verify completion, validate adequacy and collect disposition evidence. For provider-managed storage, retain available contractual or service evidence and track remaining backup-copy expiry separately.
+
+Closure
+The owner accepts retained risks, reconciles final billing, records dispositions for serials or resource IDs, and checks for dangling trust or name records.
+
+Reference
+NIST SP 800-88 Rev. 2, Guidelines for Media Sanitization
+https://csrc.nist.gov/pubs/sp/800/88/r2/final

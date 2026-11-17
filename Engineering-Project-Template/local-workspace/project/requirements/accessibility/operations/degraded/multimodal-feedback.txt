@@ -1,0 +1,10 @@
+Preserve access during mode changes
+
+Users need to recognize a consequential change, recover context and act while a normal feedback channel is unavailable.
+
+1. Pick a state transition with a real consequence, such as authorization expiry during a multi-step task. Identify who must notice it, what can be recovered and which actions remain available. Include interruptions caused by shared equipment, an alarm or a handover.
+2. Identify independent ways to perceive the message. Two on-screen effects may share the same failure. A tone and announcement may also compete for the same audio channel. Document dependencies, priority and how a person can retrieve a missed message.
+3. Specify time recovery. Decide when users can pause, extend or resume. If a limit follows from a hazard, record its rationale and the safe alternate path. Maintain context without exposing one user's sensitive entries to the next person at a shared station.
+4. Test a warning while a user is typing, after focus moves and when a previous warning is pending. Observe recognition, comprehension and completion of the recovery action. Record configuration and representative operating noise or lighting.
+
+Review output. A mode table names the signal, fallback, confidentiality boundary, time allowance and recovery authority for every consequential transition.

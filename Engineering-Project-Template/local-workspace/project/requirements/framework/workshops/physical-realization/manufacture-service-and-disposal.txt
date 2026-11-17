@@ -1,0 +1,9 @@
+Bring the factory, maintainer and end-of-life owner into the boundary
+
+Trace one unit through assembly, inspection, transport, installation, service and recovery of materials. For each stage ask what must remain accessible, identifiable and measurable. A fit that works on a clean bench can fail when a tool has to reach it in an installed enclosure.
+
+Work a tolerance chain using the governing assembly conditions. Suppose the smallest opening is 40.0 mm and the largest insert is 39.6 mm. The total size clearance is 0.4 mm under those assumptions. Do not allocate that as clearance on each side. Locating error, coatings, temperature and shape variation may consume the allowance. Ask the mechanical owner to identify the governing datum and combine compatible contributions before a dimension becomes a procurement requirement.
+
+Specify access with an actual service action. Identify the part, reach path, tool envelope, isolation step, allowable removal sequence and means to verify restoration. Observe a representative maintainer working with the released configuration, normal tools and expected visibility. Record any intervention that depended on informal knowledge.
+
+At retirement, identify who can recognize variants containing sensitive data, hazardous energy or recoverable materials. Establish what evidence permits release from custody. Decide whether access features, identification or disposal instructions create new obligations at design time. Review the same unit across all stages and record conflicts such as a sealed enclosure that improves ingress protection and increases repair time.

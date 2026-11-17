@@ -1,0 +1,10 @@
+Plan an accessible end-to-end task
+
+A user with an access need must be able to complete a consequential task and recognize its outcome through an available interaction method.
+
+1. Choose an actual journey, such as registering a request, revising it and obtaining confirmation. Map each action, prompt and status signal to its input and output channels. Include authentication, help, time limits and third-party steps.
+2. Identify assumptions about sight, hearing, reach, dexterity, language, memory and time. For a shared terminal, inventory physical reach and orientation as well as the screen. Agree which users, devices and operating contexts the product will support.
+3. Derive an observable obligation for each essential action. In an illustrative booking journey, a keyboard user can reach every required field, recover from an invalid value with prior entries intact, submit once and discover the assigned reference. Define focus placement and how a status change becomes perceivable.
+4. Walk the entire journey using the proposed input and feedback channels. Observe where assistance is needed and who controls any external dependency. Escalate gaps before committing to an interaction architecture.
+
+Review output. A journey matrix records step, access need, alternative interaction, responsible element, test configuration and confirmation signal. Validate the selected journeys with representative users.

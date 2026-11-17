@@ -1,0 +1,11 @@
+Choose among feasible architectures
+
+Establish which candidate satisfies each binding obligation, where the choice is sensitive to uncertain demand, and which party accepts each consequence. Keep a feasible baseline option, including continued operation with a process change when appropriate.
+
+1. Describe candidates at comparable detail against the same workload and operating modes. Apply hard constraints before scoring preferences. A weighted score cannot compensate for an unacceptable failure mode.
+2. Estimate ranges and state assumptions. Pick uncertainties that could reverse the ranking. Change one and then several together, including dependencies between cost, load and recovery time. A number derived from expert judgment should identify its source.
+3. Name the option, decisive evidence, rejected alternatives and conditions for reopening the decision. Record who accepts the residual risk and the expiry of any temporary concession.
+
+Example. For a planning horizon of one year, option A costs 120,000 plus 2 per unit, and B costs 40,000 plus 6 per unit. Equal cost occurs at 20,000 units. A demand range of 12,000 to 26,000 crosses that point. If both meet mandatory constraints, investigate demand or consider reversible capacity commitments before choosing on cost alone.
+
+Review record. Another planner can reproduce the comparison, find the most influential assumption and explain what new observation would change the choice.

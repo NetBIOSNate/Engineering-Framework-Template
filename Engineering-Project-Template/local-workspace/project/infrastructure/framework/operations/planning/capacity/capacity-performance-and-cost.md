@@ -1,0 +1,9 @@
+# Capacity, performance and unit cost
+
+**Goal.** Sustain the expected workload through the chosen failure scenario at an agreed cost. Record throughput, payload mix, concurrency, burst length and latency objectives. Keep offered traffic, completed traffic, timeouts and retries visible as separate measurements.
+
+1. Increase offered load in repeatable steps. Record end-to-end latency percentiles, error rate, storage latency and queue age at each step. Test warm and cold caches and the largest expected request. For rate-driven traffic, schedule arrivals independently of responses so slow periods are represented. Locate the first resource to saturate and the level at which the service objective fails.
+2. Model the loss of the largest domain. Three zones each tested at 600 requests/s leave 1,200 requests/s with one down. At an illustrative 80% operating ceiling, 960 requests/s is usable and a 900/s forecast leaves 60/s. Verify routing balance, shared database capacity, IP quotas and deployment overlap under the same load. Track replenishment lead time for physical spares or provider quotas.
+3. Divide attributable cost for the period by a stable unit delivered in that period. Include a stated share of common facilities, network, support and reserve capacity. Reconcile allocated and unallocated totals against the ledger. Record commitments and pricing assumptions separately. Compare unit cost with latency and failure tolerance after any change.
+
+**Review evidence.** Retain the load profile, bottleneck measurements, forecast horizon, failure-domain test and unit-cost calculation. Reassess when workload mix or procurement lead time shifts. [Google SRE on overload](https://sre.google/sre-book/handling-overload/) and [FinOps Foundation on unit economics](https://www.finops.org/framework/capabilities/unit-economics/)

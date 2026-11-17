@@ -1,0 +1,10 @@
+Allocate obligations across an interface
+
+Give the producing and consuming parties a contract that can be assessed independently on either side of a boundary.
+
+1. Write the unit, coordinate frame or identifier scheme, precision, owner and validity interval for each exchanged item. Identify what distinguishes missing, unknown, stale and zero. A physical interface can require the same precision for torque, travel, datum and operating envelope.
+2. Specify who initiates exchange, what constitutes acceptance, maximum useful delay and the response to loss or duplication. Distinguish acknowledgement of receipt from completion of the requested operation. Mark who retains evidence of each.
+3. Walk a change with both parties. If a sensor increases resolution, decide whether an old receiver can interpret its values and how it detects saturation. Record the coexistence window and the signal permitting retirement of the old form.
+4. Give each side an independent conformance observation. For a sample valid for 30 seconds, test a fresh value, one on the agreed boundary and one just beyond it. Define how clock uncertainty affects the classification.
+
+Review output. Both owners endorse a single contract revision, a compatibility policy and a worked exchange with expected results.

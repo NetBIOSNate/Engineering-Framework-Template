@@ -1,0 +1,11 @@
+Specify an interface both parties can accept
+
+Describe what crosses a boundary and what each side may assume about it. Cover digital, physical, human and organizational interfaces. Put a named owner on each side and identify the authority that resolves conflicting assumptions.
+
+1. Write the exchange in observable terms. Specify units, direction, timing, sequence and operating envelope. For a human handoff, name the signal that transfers responsibility. For a physical interface, specify datum, tolerance and environmental conditions that affect fit.
+2. Walk the ordinary path and one incomplete exchange. Decide how participants identify duplicate, delayed, disconnected or out-of-sequence actions. State which side may retry and which side holds the authoritative state.
+3. Test compatible change. Ask how an old producer behaves with a new consumer, how incompatibility is detected and how service resumes after rejection.
+
+Example. A depot releases a replacement unit to a courier. A dropped acknowledgment triggers a second request. Give the handoff a custody identifier, define who can advance its state, and require reconciliation before a second physical release. Inspect both custody logs after simulating a lost acknowledgment.
+
+Review record. Each party identifies its guarantee and the assumptions it depends on. Resolve asymmetric timeout or retry assumptions before approving the interface and its associated design decision.

@@ -1,0 +1,12 @@
+Inspection bench | Decide which results may be released
+
+This fictional example follows one decision across four chapters. All roles, identifiers, timings, observations and outcomes are illustrative. A workshop uses benches to take dimensional measurements. The calibration office maintains instrument eligibility. A production planner wants work to continue during a network outage. A quality lead must be able to trace every released result to an instrument approved for the capture time.
+
+N-01 | Traceable release. The recipient of an inspection report needs to distinguish a result cleared for release from a measurement awaiting review. A wrong release may require tracing and recalling already processed lots.
+N-02 | Continuity of capture. The bench operator needs to retain work during ordinary loss of contact. The planner accepts delayed release if the operator can distinguish held work from lost work.
+
+System boundary. The bench owns capture and local indication. The release service owns publication. The calibration office owns the historical eligibility register. A recipient consumes a published report. Operators can place a hold. Only the release service can publish through the agreed interface. A later correction to calibration history opens a separate investigation.
+
+Operating assumption A-01. The initial trial covers one bench, one operator and an outage up to two hours. A full buffer or uncertain custody causes a visible stop. Project validation will decide whether operators can use held results without mistaking them for released ones. The sponsor has not yet authorized production use.
+
+Decision required. Can the bench release locally using cached eligibility, or must it hold for confirmation? The next chapter defines the observable promises and decision. Start by drawing where authority, time and record identity cross between the three owners.

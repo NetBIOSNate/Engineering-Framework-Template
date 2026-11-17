@@ -1,0 +1,26 @@
+How this extension was designed, installed and checked
+
+Scope and starting point | 9 November 2026
+The working area was Engineering-Project-Template/project/requirements. It contained seven subject directories and four child directories under game-design. It contained no files. Adjacent architecture and infrastructure guides already described system views, decisions and platform design. The new requirements material connects to those records. The delivery inventory belongs at the Engineering-Project-Template root.
+
+Discovery
+Enumerate the template, including its empty directories. Inspect the neighboring field guide, framework crosswalk, handoff worksheets and discipline folder names before choosing destinations. Record every original directory path and the SHA-256 digest and path of each existing file. The baseline comprised 582 directories below the template root and 151 files. Access and directory timestamps are outside the comparison.
+
+Content design
+Use requirements as the organizing question. Keep domain-specific guidance under the seven existing subjects and the four existing game-design branches. Put the common lifecycle, framework design, decision workshops, worksheets, worked case and risk-specific profiles under framework. Separate reusable prompts from the illustrative records of a single project. Use a distinct owner, operating condition and acceptance question whenever they change the architectural decision.
+
+Reference selection
+Consult public publisher descriptions and guidance for requirements engineering, system life-cycle processes, architecture description, quality, architectural tradeoffs and accessibility. Link to the primary sources in the crosswalk or the relevant workshop. Each application, scenario, worksheet and trial result is an original teaching example. Numerical thresholds require a project source before adoption.
+
+Installation method
+Create the new directories and text files with native Windows PowerShell commands. Check destination paths and name collisions first. File creation uses create-only behavior. Organize authoring into disjoint branches, then read each new file back. PowerShell's Get-ChildItem inventories files and directories, Get-Content reads text and Get-FileHash supplies SHA-256 evidence. No installer, script, executable or downloaded reference is part of the extension.
+
+Verification and final inventory
+Compare the completed tree with the discovery baseline. Check the seven original subject roots and the four original game-design child roots for substantive guides. Read each new text document, check the navigation and handoff targets, and trace the worked example from need through failed evidence, correction and scoped release. Derive the root inventory from the observed additions. Include each created directory, each document and the inventory itself. Create the inventory last, then repeat the baseline and inventory comparison using read-only commands.
+
+Using the handbook on another project
+Start with one unresolved decision and the people accountable for it. Pick an appropriate tailoring level, run one decision end to end, and retain the resulting project records with their owners. Review the framework after a pilot by asking an independent recipient to reconstruct the decision. Add a new prompt to a project copy when it explains a decision the existing records cannot support.
+
+Open | START-HERE.md
+Open | framework/reference/industry/standards-and-methods.txt
+Open | framework/examples/inspection-bench/04-accept/change-and-operational-validation.txt

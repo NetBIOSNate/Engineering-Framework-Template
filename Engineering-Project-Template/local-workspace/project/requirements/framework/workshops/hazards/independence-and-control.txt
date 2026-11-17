@@ -1,0 +1,9 @@
+Derive requirements from loss of control
+
+Ask an operator and a discipline specialist to name an unacceptable outcome. Work backward through a concrete operating sequence. Include a control applied too early, too late, for too long, or in the wrong mode. Capture the external conditions that allow the consequence to occur. An item can report healthy while acting on the wrong reference.
+
+Example for discussion. Two inspection stations use one fixture datum. Both can report acceptable dimensions while a mislocated fixture shifts every part by the same amount. Adding a second reading from the same datum leaves the common cause intact. Ask whether a separate reference, a check specimen or a change in the inspection process can reveal the shift. Define what happens to the population already released since the last trustworthy check.
+
+For each candidate control, identify the event that demands it, the response interval, environmental limits and what evidence would reveal its own failure. Allocate a preventive function and a means of detecting its loss where the analysis warrants both. Examine shared power, clocks, credentials, people and calibration references before claiming independence. Identify the owner empowered to stop and restart the process.
+
+Record the loss scenario, control requirement, diagnostic assumption, common-cause concern, validation event and residual exposure. Have the appropriate domain authority select applicable methods and acceptance criteria for the project. Finish with a degraded-mode walkthrough and an explicit list of conditions outside the claim.

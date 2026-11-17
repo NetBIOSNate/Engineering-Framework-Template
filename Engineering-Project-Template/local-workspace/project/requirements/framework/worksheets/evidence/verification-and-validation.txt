@@ -1,0 +1,18 @@
+Worksheet | Evidence and acceptance decision
+
+Claim and revision                  [Requirement or stakeholder need to assess]
+Case ID, author, reviewer           [Identity and roles]
+Question                            [Conformance to a requirement or fitness for a use]
+Method and independent oracle       [How measured and where the expected answer came from]
+Applicable configuration            [Hardware, software, procedure, site, data and conditions]
+Setup, population and sample basis  [Fixtures, sampling rationale, representativeness]
+Intervention and observation points [Preconditions, stimulus, measurement start/end]
+Limit and uncertainty rule          [Pass, fail and inconclusive regions agreed in advance]
+Expected boundary cases             [Exact limit, outside limit, missing or contradictory input]
+Actual observations                 [Evidence ID, time, values, units, missing observations]
+Coverage gaps                       [Untested conditions and effect on generalization]
+Disposition and reviewer            [Pass/fail/inconclusive, reason and date]
+Operational validation              [User, task, intended setting, outcome, unresolved burden]
+Acceptance decision                 [Scope authorized, exceptions, authority, expiry/trigger]
+
+Have a second reviewer reconstruct the verdict using the recorded observations and rule. If the evidence is inconclusive, choose the next observation, a narrower scope or an explicit residual-risk decision. Test success, stakeholder validation and acceptance can occur at different times. Preserve each date and authority.

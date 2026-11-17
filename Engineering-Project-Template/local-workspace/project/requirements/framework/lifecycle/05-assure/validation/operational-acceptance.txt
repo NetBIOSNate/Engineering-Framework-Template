@@ -1,0 +1,11 @@
+Validate the intended outcome
+
+Determine whether the integrated system helps its intended users achieve the mission in the intended environment. Use the operating concept and stakeholder outcomes to choose trials. Verification evidence for individual components provides inputs to this decision.
+
+1. Select participants, equipment, support roles and representative conditions. Include one credible degraded condition that changes human decisions. Establish boundaries for a safe exercise and identify observations that would end it early.
+2. Give participants a realistic outcome to reach and allow them to use the system as they would in service. Log prompts from the exercise team, unofficial workarounds, delays and disagreements about authority. Each may explain why the observed outcome differs from the plan.
+3. Compare the outcome with the need and capture the acceptance authority's disposition. Assign corrective work, operating limits and a date or field condition for reassessment.
+
+Example. A recovery drill restores a planning application within ten minutes. Dispatchers spend another twenty minutes reconciling assignments made by radio. A mission objective of usable dispatch within fifteen minutes remains open. Record both clocks and revise the reconciliation workflow or recovery allocation.
+
+Review record. The sponsor and operational owner can identify what users achieved unaided, where the evidence applies and how open deviations affect the decision to put the system into service.

@@ -1,0 +1,33 @@
+How published frameworks inform this guide
+
+These are selection notes for the planner. Choose the source that fits the entity, stakeholder and decision. Record the specific edition and applicable scope when a customer or authority incorporates a standard. The directory structure, sample records, numbers and example verdicts in this handbook are local teaching choices. A formal conformance claim needs a separate assessment of the applicable normative text.
+
+Requirements engineering | ISO/IEC/IEEE 29148:2018
+Use its life-cycle requirements engineering and information-item scope to organize capture, analysis and management across levels. Local application: give each obligation a source, an owner, a verifiable statement and links to its allocation and evidence. Keep rationale available when a stakeholder asks to change a limit.
+https://www.iso.org/standard/72089.html
+
+Architecture description | ISO/IEC/IEEE 42010:2022
+Use its treatment of architecture descriptions, frameworks and viewpoints to connect stakeholder concerns to the views that answer them. Local application: test a recovery scenario against both a mode view and an allocation view. Resolve contradictory authority at the boundary.
+https://www.iso.org/standard/74393.html
+
+Systems engineering | ISO/IEC/IEEE 15288:2023
+Use its life-cycle scope to include acquiring, developing, operating, supporting and retiring systems. Select the processes relevant to the system and its elements. Local application: give the operator and retirement owner a place in the first requirements workshop.
+https://www.iso.org/standard/81702.html
+
+Product quality | ISO/IEC 25010:2023
+Use the product quality model to prompt questions about an ICT or software product. Translate a selected characteristic into a scenario with conditions, observable response and a justified limit. For physical products, also obtain discipline-specific loads, environments and failure conditions.
+https://www.iso.org/standard/78176.html
+
+Architectural tradeoffs | SEI Architecture Tradeoff Analysis Method
+Use the SEI method as a reference for examining how architectural approaches affect quality attributes. Local reviews explore the effect of one design parameter on competing requirements. The worksheet supports a project discussion. A full ATAM evaluation follows the SEI method.
+https://www.sei.cmu.edu/library/atam-method-for-architecture-evaluation/
+
+Writing and reviewing obligations | NASA Systems Engineering Handbook, Appendix C
+Use NASA's guidance on requirement statements and review questions when editing a requirement that mixes rationale, a design assumption and several obligations. Retain the rationale and separate statements where their verification differs.
+https://www.nasa.gov/reference/appendix-c-how-to-write-a-good-requirement/
+
+Web accessibility | W3C Web Content Accessibility Guidelines 2.2
+For a web interface, identify the applicable success criteria, complete processes and conformance scope. Exercise the critical task with affected users as well as checking the technical criteria. Establish separate physical or non-web requirements where the product boundary extends further.
+https://www.w3.org/TR/WCAG22/
+
+Publisher descriptions and public guidance consulted 9 November 2026. Select contractual editions with the project authority. The handbook can be used offline.

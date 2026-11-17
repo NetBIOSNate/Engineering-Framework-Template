@@ -1,0 +1,9 @@
+Bound interference between tenants
+
+Use this profile when multiple users, sites or organizations share a constrained resource. Write the service promise for a named tenant class and workload. The service owner and commercial owner agree whether fairness means equal shares, purchased entitlements or a minimum under contention. Identify any downstream bottleneck that an admission decision cannot see.
+
+1. Define the unit of demand. A ten-second export and a ten-millisecond lookup consume different resources. Model worker-seconds, bytes/s or another measured limiting quantity. Include retries and background jobs in the same accounting boundary.
+2. For illustration, a pool can supply 100 worker-seconds each second. Reserving 20 for operations leaves 80. Four tenants with commitments of 15 worker-seconds/s use 60, leaving 20 for bursts. A single first-in, first-out queue can still delay a small tenant behind an accepted burst. Specify queue isolation, deadline and overload response as observable obligations.
+3. State how reservations behave when a tenant is idle and how quickly loaned capacity must be reclaimable. Define how clients learn when to retry.
+
+Saturate the pool with one tenant and measure admitted, rejected and delayed work for each of the others. Reconcile per-tenant results with the pool total. Reopen the capacity budget when job mixes, guarantees or dependencies change.

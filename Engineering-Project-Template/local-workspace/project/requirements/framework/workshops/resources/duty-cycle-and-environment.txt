@@ -1,0 +1,9 @@
+Turn a resource constraint into a whole-mission budget
+
+Identify the constrained resource in its real setting. Examples include stored energy at end of battery life, cooling at a dusty site, operator attention during a surge, water in a wash cycle or mass at installation. Define the mission duration and the condition in which running short matters most. Average values from a quiet day can hide a short peak that prevents operation.
+
+Illustrative energy budget. A remote instrument spends 22 hours at 1 W, one hour sensing at 6 W and one hour transmitting at 12 W. Demand is 40 Wh per day at the load. At 80 percent usable conversion efficiency the source must supply 50 Wh per day. Two such days require 100 Wh from the source before allowance for aging, low temperature or reserve. A nameplate value in ampere-hours requires a voltage basis before comparison. Check that the source can also deliver the instantaneous transmit load.
+
+Allocate the budget to modes with a duty-cycle assumption and owner. At the system boundary, identify what can overlap. A field operator who extends the reporting window may also change queue size and radio duty cycle. Write a degraded-mode requirement naming which observations can be deferred and how the user sees reduced coverage.
+
+Ask the owner to measure energy at the source over a representative mission and observe the peak delivery conditions. Record units, environmental envelope, end-of-life assumption and margin. Reopen the architecture when a new workload or installation condition consumes the reserve.

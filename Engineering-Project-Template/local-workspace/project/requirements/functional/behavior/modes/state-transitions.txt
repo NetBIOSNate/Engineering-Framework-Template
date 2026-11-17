@@ -1,0 +1,10 @@
+Specify behavior across modes and interruptions
+
+Define the external behavior two independent teams must agree on, including what happens during interruption and recovery.
+
+1. Identify actors, inputs, observable outputs and the state that survives loss of power, contact or staffing. Name modes in terms an operator can distinguish. Mark the authority that may initiate each transition.
+2. Build a transition table with current mode, event, guard, new mode, output and durable record. Decide what an unexpected event does. Review events that arrive twice, arrive late, race with a cancellation or arrive while authority is transferring.
+3. Express one invariant that covers every transition. In a reservation service, a confirmed slot has at most one active holder. Walk two concurrent claims and a cancellation during acknowledgement loss with the table in front of both owning teams.
+4. Define what the caller sees while the outcome is uncertain. Identify the observation that distinguishes a successful retry from a competing claim. Leave the choice of storage or synchronization to the architecture decision record unless it is a sourced constraint.
+
+Review output. The operator and both interface owners can predict the externally visible outcome for every reviewed event and identify any ambiguity needing a decision.

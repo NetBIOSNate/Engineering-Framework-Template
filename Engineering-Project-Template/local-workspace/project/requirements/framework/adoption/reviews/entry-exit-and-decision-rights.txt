@@ -1,0 +1,17 @@
+Decide what the next commitment authorizes
+
+Use a review when delaying a bad choice would protect users, money, schedule or the ability to recover. A small project can combine reviews in a single conversation. Preserve the decision, evidence and authority for each commitment.
+
+Concept or mission review
+Bring a real scenario, actor map, initial boundary and the consequence of waiting. Ask the sponsor and an affected operator to identify a real outcome the proposed system can change. Leave with an agreed intended use and a named investigator for the uncertainty most likely to move the boundary.
+
+Allocation or design review
+Bring measurable drivers, credible options, interface assumptions and shared budgets. Ask each endpoint owner to predict the result of one interrupted exchange. Choose an architecture, order a trial or defer an irreversible decision. Identify the exact constraints the implementation team inherits and the choices still open.
+
+Integration review
+Bring the agreed record revisions, representative configurations, limits, independent reference observations and the proposed integration order. Check that an integrated experiment could reveal a failure hidden by each element's local evidence. Authorize the next assembly or integration scope and its stop condition.
+
+Acceptance and in-service review
+Bring verification dispositions, validation with intended users, operational evidence, known gaps and the ability to restore service. The acceptance authority specifies which variants and operating conditions are released. Give an operator the signal, authority and means to narrow or withdraw use if the field evidence changes.
+
+At every review, distinguish advance, advance with named restrictions, hold for evidence and retire the proposal. Record missing evidence as a decision with an owner. Reviewers may agree on the facts and disagree about taking the risk. Give the decision to the role authorized to carry the consequence.

@@ -1,0 +1,11 @@
+Select requirements that can change the architecture
+
+Identify the few requirements whose uncertainty changes the system boundary, allocation, interface, major cost or ability to recover. A frequently requested feature can be easy to reverse. A rarely exercised emergency mode can determine the entire design.
+
+1. For each candidate, name two plausible design choices and explain how the requirement could make one infeasible. Ask who experiences the consequence, how long it lasts and how expensive reversal becomes after commitment.
+2. Apply binding constraints first. For remaining drivers, rank urgency by the next decision date and the value of information. Track evidence strength separately. A measurement at nominal load leaves peak behavior uncertain.
+3. Define a modest investigation that could change the decision. State the observation, its interpretation, its owner and the date it must arrive. If either possible result leads to the same choice, investigate a different uncertainty.
+
+Example. An asset can buffer an uncertain outage of two to eight hours. At 120 records per minute, eight hours generates 57,600 records before overhead. Night-shift outage records and sustained write measurements can decide whether onboard storage suffices.
+
+Review record. For each selected driver, name the pending choice, evidence needed, range of plausible demand and latest responsible decision date. Assign someone to reopen the choice if the range moves.

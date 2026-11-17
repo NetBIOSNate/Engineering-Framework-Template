@@ -1,0 +1,17 @@
+Tailor the depth of the evidence
+
+Choose the depth from the consequence of a wrong decision, the cost of reversing it and the difficulty of observing failure. Team size controls how many roles one person plays. A one-person project can still rely on a critical external service or an irreversible machining operation.
+
+Begin with the smallest useful set. Record the outcome and its owner, one system boundary, the obligations driving the first design choice, an acceptance observation and the unresolved exposure. Walk one real case. Add a record when someone needs it to make or revisit a specific decision.
+
+Increase depth when these conditions appear.
+
+Two teams or a supplier own opposite sides of a boundary. Add an interface record with an agreed revision and evidence available to both sides. Escalate disagreements before either party locks its implementation.
+
+Failure is difficult to detect or reverse. Add a causal analysis, an independent observation, a containment decision and a release authority. Include the route to a safe or recoverable condition during maintenance.
+
+One design serves several configurations. Add applicability rules, configuration identities and representative cases. State when evidence transfers and which changed feature invalidates that transfer.
+
+The user community or mission is unfamiliar. Add field observation, accessibility or human-factors research and a validation event. Keep assumptions open until the intended users can exercise the proposed operating concept.
+
+Record each tailoring decision as concern, selected evidence, rationale, owner and trigger to deepen. Supposing a prototype is physically isolated is a tailoring assumption. Connecting it to a live plant changes the boundary and calls for another review before connection.

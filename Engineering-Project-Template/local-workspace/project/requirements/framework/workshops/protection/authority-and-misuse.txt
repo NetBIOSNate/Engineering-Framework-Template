@@ -1,0 +1,12 @@
+Translate a protection need into boundary requirements
+
+Begin with the action whose unauthorized completion causes loss. Have an operator name the asset, the party entitled to act, how that authority is granted and a case where it must end. Draw where an assertion crosses from one owner to another. Include delegated work, shared equipment, cached decisions, restored backups and access during repair.
+
+Take a representative misuse case. A contractor whose assignment has ended can still approve a requisition from a device that lost contact yesterday. Ask who declares the assignment ended, who decides at the instant of approval, and which authority the device can contact. A claim of immediate revocation is inconsistent with a fully disconnected decision based on old authorization. Seek a decision on the permitted stale interval or which operations must wait for live authority.
+
+Write requirements at each boundary. For example, the approving service checks current delegation at commitment, and the isolated device can prepare a draft. Record how a denied operator can recover, what evidence the owner needs to investigate and which personal facts the audit requires. Specify what an attacker controlling a client could falsify and which observer remains trustworthy.
+
+Challenge the design with a revoked account, a restored cached credential and a request for another owner's item. Check direct, delegated and background execution paths. Close the workshop when every accepted action has an accountable authorizer and the failure behavior is intelligible to the legitimate user.
+
+Reference for life-cycle systems security engineering. NIST SP 800-160 Vol. 1 Rev. 1
+https://csrc.nist.gov/pubs/sp/800/160/v1/r1/final

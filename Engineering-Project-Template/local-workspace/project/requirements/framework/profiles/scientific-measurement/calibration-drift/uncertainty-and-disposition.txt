@@ -1,0 +1,9 @@
+Define the decision at the measurement boundary
+
+Use when a measurement determines acceptance, publication or physical intervention. The measurement lead owns the uncertainty model. The decision owner defines the cost of a false acceptance and the disposition for an inconclusive result. Register the quantity being measured, units, sampling geometry, reference method, operating range and interval between calibration checks.
+
+1. Trace uncertainty contributions from the sensor to the reported value. Separate random repeatability from drift, reference bias and preprocessing. Document shared references that make errors correlated. Repeated measurement can improve precision while leaving the same bias in every sample.
+2. Work one decision with units. For an illustrative upper limit of 10.0 mm, suppose an approved rule accepts a reading only when its reported value plus its expanded uncertainty is at most 10.0 mm. A reading of 9.8 mm with 0.3 mm expanded uncertainty enters review. Preserve the coverage basis and the rule used for the decision.
+3. Specify how to find affected results when a reference is discovered out of tolerance. Link instrument identity, calibration interval, algorithm version and raw observation to each disposition.
+
+Evaluate reference specimens near the decision boundary and replay a drift event through reporting. The evidence package should reproduce the original decision and identify the population requiring reconsideration. Reassess after a sensor, algorithm or calibration procedure changes.

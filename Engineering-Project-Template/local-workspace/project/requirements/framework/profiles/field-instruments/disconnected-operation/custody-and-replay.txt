@@ -1,0 +1,9 @@
+Keep observations attributable through a disconnection
+
+Use when instruments collect measurements during a network outage. The instrument owner and receiving-data owner agree which evidence must survive loss of power, media replacement and clock corrections. Define the observation boundary, identity of the producing instrument, calibration reference, sequence policy and the event that transfers custody to the receiver.
+
+1. Size the spool from encoded record size and peak sampling rate. At an illustrative 2 records/s and 480 bytes/record, six hours produces 43,200 records and 20,736,000 bytes. A 25 percent allowance yields 25,920,000 bytes before filesystem overhead, metadata and media reserve. Record maximum attachment sizes separately.
+2. Give replayed records a stable identity across restart. Specify the response when two records claim the same identity with different content. Pair event time with sequence and clock uncertainty so an analyst can distinguish late arrival from source order.
+3. Define the full-spool behavior with the mission owner. A choice to aggregate older records must state what information is lost and who can see the loss.
+
+Inject a power loss after durable receipt and before acknowledgement. Reconnect, drain the backlog while capturing new records, and reconcile source and receiver counts and identities. Count unrecoverable gaps explicitly. Revisit the proof when sampling, encoding or disconnection duration increases.

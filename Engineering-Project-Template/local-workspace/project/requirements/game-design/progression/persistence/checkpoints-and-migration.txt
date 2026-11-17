@@ -1,0 +1,10 @@
+Preserve earned progress across interruption and change
+
+A participant should be able to identify which achievements are durable and recover a valid next action after resuming or upgrading.
+
+1. Draw a prerequisite graph for milestones, unlocks and optional routes. Inspect cycles, unreachable goals and dependencies on retired content. Name the authority that can award, revoke or repair each milestone.
+2. Mark the commitment point visible to the participant. If a completion banner precedes durable acknowledgement, specify what resume can show and how an uncertain award is reconciled. Decide what a second device may display while disconnected.
+3. Exercise the same award on both sides of a checkpoint. In this example, one completed challenge grants one permanent entitlement even if the completion event is replayed. Test loss immediately before commitment, immediately after commitment and after a rules revision changes prerequisites.
+4. Compare two migration policies for an earned unlock whose prerequisite changes. Carrying the unlock forward preserves earned status. Re-evaluation can create a blocked path for existing participants. Record the chosen policy, repair route and observed impact across representative old states.
+
+Review output. A milestone ledger ties origin, authoritative revision, recovery rule and user-visible confirmation to a migration case. The pattern also serves credential ladders and staged training.

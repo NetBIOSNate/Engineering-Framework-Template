@@ -1,0 +1,17 @@
+A first planning session
+
+Set aside twenty minutes and bring a real request. Use paper or the project's ordinary record system. By the end, another person should be able to tell what the system promises, who owns it and what observation would show that it failed.
+
+Minutes 0 to 5 | Describe yesterday's work
+Ask someone who does the job to tell the story of the last failed handoff. Draw the person sending, the person receiving and the item crossing between them. Circle where their expectations differ. “The parts desk showed ready when the kit still lacked its gauge” gives a planner more to work with than “improve accuracy.”
+
+Minutes 5 to 10 | Write one obligation
+Name the observer, the triggering event and the visible response. Try “When a kit is offered for collection, the desk shall show each outstanding required item to the collecting technician.” Ask who defines the required items for each kit revision. Give that question an owner. A suggested screen layout belongs in the design discussion.
+
+Minutes 10 to 15 | Challenge the boundary
+Walk a complete kit, a kit with a missing gauge and a kit whose list changed after packing. Agree whether the packing revision or collection revision governs, who can authorize a substitution and what a technician sees before acceptance. Split the revision rule into its own obligation if a different owner or test is needed.
+
+Minutes 15 to 20 | Try to disprove it
+Have a second person seed a missing item in a known configuration. The expected result comes from the agreed kit list. Define the observation before seeing the desk status. Hand over the need, statement, revision decision, owner and case. An unresolved disagreement is a valid output when someone owns its resolution.
+
+Next step. Try the worked inspection-bench case. Read its requirements, predict the result for a capture interval that crosses the calibration expiry, then compare with the verification chapter.

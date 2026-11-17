@@ -1,0 +1,17 @@
+Promotion, canaries and recovery from change
+
+Goal
+Each infrastructure release reaches a representative slice first. The operator knows which observation permits expansion and which triggers a stop.
+
+Implementation
+1. Assemble a change packet with source revision, artifact digest, target boundary, current state generation, affected dependencies, reviewed preview and available operator. Identify irreversible steps. Record the last point at which old readers and writers can safely return. Keep a tested recovery configuration and a separate management path when changing routes, identity, firewalls or DNS.
+2. Select a canary that exercises a real failure domain. One edge site may expose an appliance incompatibility that a development VM never sees. For shared control-plane components, start with an isolated peer, cell or test routing domain. Verify surviving capacity can absorb the loss of the canary. Set an observation window long enough for cache expiry, certificate renewal or a scheduled task relevant to the change.
+3. Capture baseline errors, saturation, dependency health and at least one end-to-end request. Promote the reviewed artifact through each cohort. Compare new and unchanged cohorts. Stop on the agreed symptom or any unexplained loss of management access. Define who can stop and what to do when telemetry disappears.
+4. If rollback is safe, restore the last known revision, verify service and reconcile desired state. After incompatible durable writes, use a preplanned forward fix or tested data recovery path. Exercise both branches in a representative environment.
+
+Handoff
+Record cohorts, timestamps, observed effects, failed assumptions and verified final state. Assign owners to failures that would block the next rollout.
+
+Reference
+NIST SP 800-128, Guide for Security-Focused Configuration Management of Information Systems
+https://csrc.nist.gov/pubs/sp/800/128/upd1/final

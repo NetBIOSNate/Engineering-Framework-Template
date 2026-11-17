@@ -1,0 +1,10 @@
+Resolve competing needs at the system boundary
+
+Establish who can decide when parties experience different costs from the same architectural choice.
+
+1. Map the people who request, fund, operate, maintain, depend on and retire the system. Include people affected by errors who never operate it. Ask who carries the consequence when the primary operator is absent.
+2. Express each concern as a situation, consequence and desired outcome. Separate mandatory obligations with a named source from preferences with a named advocate. Record assumptions that need field observation.
+3. Work through the hardest collision together. A dispatch manager wants immediate reassignment after a missed check-in. A field lead needs time to finish an operation safely. Draw the interval between last contact, missed contact and confirmed transfer. Mark when each role has authority to act.
+4. Compare the consequences of acting early and late. Name the decision owner, escalation route and evidence needed to change the boundary. If a party cannot attend, record who will validate the proposed arrangement.
+
+Review output. Publish a concern-to-owner table and the agreed decision rule. Ask each affected party to walk a normal case and a disputed case. Record remaining dissent and its consequence next to the decision.

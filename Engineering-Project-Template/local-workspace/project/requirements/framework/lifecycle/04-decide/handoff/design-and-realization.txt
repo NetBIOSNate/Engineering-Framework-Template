@@ -1,0 +1,11 @@
+Hand architectural obligations to delivery teams
+
+Let builders make local design choices while preserving the promised system behavior. Link each obligation to an owner with control over the relevant boundary, a design decision, an integration observation and the release in which support becomes effective.
+
+1. Traverse a single user outcome across all contributing elements. Record which team produces each result, which team consumes it, and how both know that the exchange succeeded. Mark obligations with no accountable owner or contradictory owners.
+2. Choose a thin implementation increment that exercises the highest-risk handoff. Name the contracts and environments it represents, what is simulated, and what evidence will require a later trial on the real system.
+3. Resolve changes to assumptions at the system boundary. Record the affected requirement and decision before approving a local optimization that consumes shared margin or transfers risk to a neighbor.
+
+Example. A field unit needs its previous configuration after interrupted provisioning. A component-level save test establishes part of the claim. Plan an integration trial that severs power between persisting the new settings and confirming activation, then inspects the active configuration after restart. Assign responsibility for reconciling the device and operator views.
+
+Review record. Each delivery owner can identify a boundary observation, a release or configuration and an escalation path if the contract cannot be met.
