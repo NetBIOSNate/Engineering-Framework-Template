@@ -1,0 +1,49 @@
+The user is asking about a specific folder path: Engineering-Project-Template\project\data-design\privacy-design. They want to know:
+
+What would be the first document in this folder (as a senior engineer)?
+A short goal for this folder.
+This seems to be about software engineering project templates, specifically around data design and privacy design. The folder structure suggests:
+
+Engineering-Project-Template (root)
+project (specific project)
+data-design (data design documents)
+privacy-design (privacy-specific design documents)
+As a senior engineer, the "first document" in a privacy-design folder would typically be a foundational document that establishes privacy requirements, principles, and framework. Common candidates:
+
+Privacy Design Requirements / Privacy Requirements Specification
+Privacy Impact Assessment (PIA)
+Data Protection Impact Assessment (DPIA)
+Privacy Design Principles / Privacy by Design Charter
+Privacy Architecture Overview
+Given it's a "design" folder and likely the first document, I'd recommend something like 00-privacy-design-charter.md or privacy-requirements.md or privacy-impact-assessment.md.
+
+Actually, looking at typical engineering templates (like those from Google, Microsoft, or general enterprise architecture), the first document in a privacy design folder is often a Privacy Design Requirements document or Privacy Impact Assessment (PIA)/Data Protection Impact Assessment (DPIA).
+
+But if we're talking about the very first document to create when setting up the folder, it should be a Privacy Design Charter or Privacy Requirements Specification that defines what privacy means for this project, regulatory scope (GDPR, CCPA, etc.), and guiding principles.
+
+Let me think about naming conventions. Usually numbered: 00-privacy-charter.md, 01-data-flow-diagram.md, etc.
+
+The user wants a "short goal for this folder" - so 1-2 sentences describing the purpose of privacy-design.
+
+Let me structure the answer:
+
+First document recommendation (name + brief description of contents)
+Short goal for the folder (1-2 sentences)
+Possible first document: 00-privacy-design-requirements.md or privacy-charter.md. I'll go with 00-privacy-design-charter.md or privacy-requirements.md. Actually, "Privacy Design Requirements" is more concrete. But "Charter" sets the stage.
+
+Let me suggest: 00-privacy-design-charter.md (or privacy-requirements.md). It should outline:
+
+Applicable regulations (GDPR, CCPA, HIPAA, etc.)
+Data subjects and categories of personal data
+Privacy principles (data minimization, purpose limitation, etc.)
+Roles and responsibilities
+Reference to DPIA/PIA if required
+Goal for folder: To define, document, and govern how personal data is collected, processed, stored, and deleted in compliance with privacy regulations and organizational policies, ensuring privacy-by-design throughout the system lifecycle.
+
+First document: 00-privacy-design-charter.md (or privacy-requirements.md)
+
+This foundational document should establish the privacy scope for the project: applicable regulations (e.g., GDPR, CCPA, HIPAA), categories of personal data, data subjects, core privacy principles (data minimization, purpose limitation, storage limitation), and ownership/responsibilities. It serves as the reference point for all subsequent privacy artifacts (data-flow diagrams, DPIA/PIA, retention schedules, etc.).
+
+Short goal for the folder:
+
+To define and govern how personal data is collected, processed, stored, shared, and deleted—ensuring privacy-by-design and regulatory compliance throughout the system lifecycle.

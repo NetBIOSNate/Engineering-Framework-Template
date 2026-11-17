@@ -1,0 +1,19 @@
+Worksheet | Requirement card
+
+Capture one independently judgeable obligation. Give a derived requirement a parent or a recorded decision or hazard that explains its origin.
+
+Requirement ID and revision     [Stable ID, revision, baseline membership]
+Title and owner                 [Short verb phrase and accountable person]
+Source / rationale              [Need, constraint, hazard or decision ID and consequence]
+Applies to                      [System, mode, configuration and operating envelope]
+Statement                       [Under CONDITION, SUBJECT shall provide OBSERVABLE RESPONSE within LIMIT.]
+Measurement rule                [Start, end, units, population, exclusions and uncertainty]
+Status and authority            [Proposed/reviewed/baselined/superseded and approving role]
+Allocation                      [Named accountable element, interface or role, with revision]
+Verification case and method    [Case ID, inspection/analysis/demonstration/test]
+Acceptance rule                 [Boundary values, discrepancy treatment and decision owner]
+Validation link                 [Need and use scenario that would show the outcome matters]
+Assumptions or dependencies     [ID, owner, expiry and consequence if false]
+Change trigger                  [A change of use, configuration or contract needing review]
+
+Editing exercise. Take “The system shall be easy to repair.” Identify the failed item and the maintenance conditions. One candidate claim measures elapsed time from arrival with the normal tool kit to restoration of a defined service. A separate claim may cover the skill level or action required to diagnose the failed item. Confirm the numbers and personnel assumptions with the service owner.

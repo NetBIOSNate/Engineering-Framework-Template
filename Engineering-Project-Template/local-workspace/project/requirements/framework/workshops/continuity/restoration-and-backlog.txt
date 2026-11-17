@@ -1,0 +1,9 @@
+Budget restoration from the customer's clock
+
+Ask which outcome the recipient loses and when the clock starts. Include detection, declaration, access to tools and credentials, restoring usable state, validation and clearing delayed work. Identify the event that ends the outage from the recipient's perspective. Starting a replacement process may leave a backlog and a prolonged user-visible outage.
+
+Draw the dependency sequence. Name the authority allowed to declare recovery and the owner who confirms that records are complete. Give every critical dependency a recovery path, including the way to find instructions when the usual communications channel is unavailable.
+
+Illustrative workload. Work arrives at 12 items per minute. A 30-minute interruption queues 360 items. After service resumes at 30 items per minute, steady arrivals leave 18 items per minute for catch-up and the queue drains in 20 minutes. This gives a 50-minute interval from interruption to an empty queue if restoration starts serving immediately at minute 30. A requirement to clear in 45 minutes calls for a shorter outage, more capacity or an explicit priority and deferral decision. Validate any rate assumption under actual downstream limits.
+
+Test a recovery from a known input set with new work still arriving. Observe the first usable outcome, duplicates or losses, priority starvation and time to normal service. Record where evidence becomes uncertain. Define both an acceptable data-loss bound and a recovery-time bound when the product stores state. Obtain the service owner's verdict on both.

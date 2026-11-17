@@ -1,0 +1,18 @@
+Worksheet | Change impact and scope of approval
+
+Change ID and origin             [Requester, date and signal that triggered review]
+Current baseline / candidate     [Revision sets and applicability]
+Proposed change and reason       [Affected obligations, revised limits and intended benefit]
+Affected neighbors               [Interfaces, suppliers, physical fits, user roles and operators]
+Trace impact                     [Upstream needs, downstream allocations, cases, evidence]
+Transition and coexistence       [Old/new combinations, migration window, loss of authority]
+Evidence still valid             [IDs and justification tied to unchanged conditions]
+Evidence to repeat               [Cases, owners, due dates and decision blocked]
+Cost of accepting / deferring    [Measured or estimated consequences, uncertainty]
+Recovery boundary                [Rollback, compensation or another recovery route and trigger]
+Decision and release scope       [Adopt, defer or reject, named configurations and authority]
+Exception / residual exposure    [Owner, compensating action, expiry and review signal]
+Communication                    [Who needs the new agreement and who confirms receipt]
+Closure                          [Actual release identity, observed effects, retirement of old claim]
+
+Try the change on a unit, transaction or record created under the previous agreement. Once it has crossed an external boundary, restoring an old configuration may leave irreversible effects. Ask the receiving owner what evidence would demonstrate that custody and service can be recovered.

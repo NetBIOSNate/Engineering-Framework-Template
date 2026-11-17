@@ -1,0 +1,14 @@
+Risk exceptions, evidence and decision rights
+
+Goal
+A reviewer can trace a requirement to an operating control, identify who accepted any gap and determine whether evidence still represents the running system.
+
+Implementation
+1. Select outcomes relevant to project exposure, service criticality, data handling and dependencies. Using the NIST Cybersecurity Framework, describe current and intended states in plain language. For each selected outcome name a system owner, implementation owner and test owner. For an inherited provider control assign an owner to the project configuration and the interface between the two.
+2. For each control capture scope, configuration revision, population sampled, test method, expected result, observed result, date, reviewer and evidence location. Record failures and follow-up ownership. Store redacted or access-controlled evidence under the applicable retention schedule. A screenshot of a setting supports configuration inspection. Testing an unauthorized request supplies separate operating evidence.
+3. Example exception. A remote gateway cannot consume short-lived credentials until its approved firmware update. Record affected identifiers, exposure, constrained access path, isolated management subnet, credential custodian, rotation interval, firmware milestone and expiry date. Name a risk owner with authority over the affected service. Exercise access from an unapproved source and simulate a stolen credential within the retained access path using a test identity.
+4. Review an exception when dependencies, reachability or ownership change, and again before expiry. At expiry enforce the agreed response, such as isolation, a supported replacement or a freshly justified decision. Close the item with a passing control test and updated asset record.
+
+Reference
+NIST CSF 2.0, The NIST Cybersecurity Framework
+https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final

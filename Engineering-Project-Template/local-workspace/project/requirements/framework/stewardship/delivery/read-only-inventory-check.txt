@@ -1,0 +1,32 @@
+Read the delivery inventory with Windows PowerShell
+
+Start PowerShell in the Engineering-Project-Template directory containing REQUIREMENTS-ADDITIONS.txt. The D records identify new directories and the F records identify new files. A tab separates each file path from its title. Paths are relative to that template root. These commands report missing paths or paths of the wrong type after the template has been copied.
+
+$root = (Get-Location).Path
+$inventory = Get-Content -LiteralPath (Join-Path $root 'REQUIREMENTS-ADDITIONS.txt')
+$problems = foreach ($line in $inventory) {
+    if ($line.StartsWith('D  ')) {
+        $path = $line.Substring(3).TrimEnd('/')
+        if (-not (Test-Path -LiteralPath (Join-Path $root $path) -PathType Container)) {
+            "Missing directory | $path"
+        }
+    }
+    if ($line.StartsWith('F  ')) {
+        $path = ($line.Substring(3) -split "`t", 2)[0]
+        if (-not (Test-Path -LiteralPath (Join-Path $root $path) -PathType Leaf)) {
+            "Missing file | $path"
+        }
+    }
+}
+if (@($problems).Count) { $problems } else { 'All listed paths are present.' }
+
+To inspect the deepest guidance on a topic, list its full file paths. For example, this command displays the guides below the original game-design branches.
+
+Get-ChildItem -LiteralPath '.\project\requirements\game-design' -Recurse -File |
+    Select-Object -ExpandProperty FullName
+
+For a later project baseline, retain a path and hash from the approved configuration for each file you want to compare. Recompute the hash on the candidate copy and compare the full value. A matching path confirms presence. A matching SHA-256 value establishes byte identity for that file.
+
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\project\requirements\START-HERE.md'
+
+If a project revises an example or introduces its own documents, capture the new agreement with the applicable record revisions and owner. This delivery inventory describes the initial extension.

@@ -1,0 +1,11 @@
+Sequence architecture work around the first expensive commitment
+
+List the commitments the project cannot easily undo. Examples include cutting tools, publishing a protocol, signing a multi-year supply agreement or moving the authoritative copy of an operational record. Give each a date, owner and evidence it needs. Work backward to the cheapest representative trial that could reveal a wrong assumption before the commitment.
+
+Construct a thin slice from an initiating actor to a real outcome across at least one uncertain boundary. Name what is real, simulated or absent. A timing trial with a simulated device can establish protocol interpretation while leaving physical response unresolved. Give that gap its own owner and integration event.
+
+Example. A prototype replays 100 perfect messages and demonstrates a compatible schema. The next commitment is an irreversible supplier order. Rehearse a missed acknowledgement during firmware changeover using one old and one proposed endpoint. Observe the source of truth, visible recovery and release of custody. A duplicated physical shipment changes the required interface contract even though all 100 normal messages were compatible.
+
+Order later increments by dependencies and exposure. Define a station or cohort for initial deployment, the signal to stop expansion and the actor authorized to recover. Separate readiness to buy, readiness to integrate and readiness to operate in the project schedule.
+
+Exit with a sequence of decision dates, each backed by a trial and a clear next action for a pass, a failure or inconclusive evidence.

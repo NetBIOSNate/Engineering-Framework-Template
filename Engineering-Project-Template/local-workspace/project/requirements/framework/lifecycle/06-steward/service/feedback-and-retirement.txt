@@ -1,0 +1,11 @@
+Learn from service and close obligations
+
+Determine when service evidence should reopen an architectural decision and how the owner can close obligations when an asset, service or variant leaves use. Assign the ongoing observation and retirement decision to people who can still obtain the necessary evidence after delivery.
+
+1. For a sensitive requirement, choose a field signal with a denominator, observation interval, owner and investigation threshold. Pair automated evidence with operator reports so a hidden workaround cannot create a misleadingly healthy measure.
+2. Route recurring breaches, near misses or changed demand through the change process. Recheck assumptions against service history, including users or sites missing from telemetry.
+3. At retirement, identify consumers, retained records, successor dependencies, physical assets and support promises. Plan a transition rehearsal, read-back of retained information and reconciliation of every dependent party before withdrawing the old path.
+
+Example. A depot reports zero use of a spare-parts interface in thirty days. A seasonal overhaul contractor uses it quarterly. Inspect the full maintenance cycle and contact the named consumer before choosing a withdrawal date. Test that outstanding orders remain interpretable after migration.
+
+Review record. The service owner records the last supported configuration, migration or disposal evidence, successor custodian and any residual obligation with its future review date.

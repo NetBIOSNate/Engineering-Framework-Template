@@ -1,0 +1,10 @@
+Design evidence before the architecture is fixed
+
+Derive an impartial pass, fail or inconclusive decision from a requirement and a named configuration.
+
+1. Identify the exact claim, boundary, affected population and acceptance authority. Choose inspection for an observable property, analysis for an argued bound, demonstration for an operational capability or test for a controlled comparison. Explain why the method can reveal the failure of interest.
+2. Define the setup, stimulus, observable output, expected result and allowable uncertainty. For a maximum allowed travel of 8.0 mm and an agreed bounded measurement error of 0.2 mm, a conservative pass requires the observation plus 0.2 mm to be at most 8.0 mm. If the uncertainty interval crosses the limit, record an inconclusive result and obtain better evidence.
+3. Include nominal, threshold, just-outside, degraded and interrupted cases selected for the claim. Identify which requirement requires repetition across variants. Record instrument identity, calibration validity and configuration revision.
+4. Assign a reviewer who can challenge the evidence. Keep actual observations, discrepancy IDs and disposition alongside the expected results.
+
+Review output. Another assessor can reconstruct the decision, including its uncertainty, from the evidence package without asking the test designer.

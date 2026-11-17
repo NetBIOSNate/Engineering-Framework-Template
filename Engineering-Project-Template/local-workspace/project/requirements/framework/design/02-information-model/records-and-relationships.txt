@@ -1,0 +1,20 @@
+Design the information model
+
+Choose stable identifiers that survive reorganizations. Store the current title, owner and status as editable properties. A drawing number, a supplier part or a folder name can change while the obligation persists. Give revised baselines distinct identities so a reviewer can recover what a team agreed on a specific date.
+
+A small record model
+
+Need         A stakeholder outcome, source, operating context and consequence.
+Requirement  An observable obligation, parent or derivation, measure and owner.
+Constraint   An externally fixed limit, its authority, scope and release condition.
+Allocation   The element, interface or human role that carries all or part of a requirement.
+Decision     Alternatives, selected design, assumptions, consequences and revisit trigger.
+Case         The method, conditions and oracle used to challenge a claim.
+Evidence     An actual observation, configuration, date, uncertainty and disposition.
+Baseline     A named set of record revisions and the authority that accepted them.
+
+Define the link verbs. A need motivates one or more requirements. A decision responds to requirements and may derive new ones. Allocation assigns responsibility. A case checks a requirement. Evidence records the outcome of executing that case. Keep validation of the stakeholder outcome visible as a separate relationship. Many-to-many links are normal, especially for qualities shared across components.
+
+Review in both directions. Start at a costly design decision and find the need or constraint it serves. Start at a failed case and find every affected configuration and acceptance owner. Ask why any approved requirement lacks a parent or any safety-significant assumption lacks an owner. A derived protection can cite the hazard analysis that justifies it. A legacy record with an unknown source gets a named investigator and a decision deadline.
+
+A spreadsheet, database or text register can implement these relationships. Give one location authority over each record and put references in the other representations.

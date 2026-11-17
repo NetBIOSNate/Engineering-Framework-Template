@@ -1,0 +1,9 @@
+Transfer control without losing open work
+
+Use when authorized people alternate control of a process, installation or service. The operations lead defines when the incoming operator accepts responsibility and what the outgoing operator retains until acceptance. Include a relief operator, language or accessibility needs, and loss of the ordinary handover channel.
+
+1. Map the decisions that may be pending at shift change. For each one, record the asset or case, current state, temporary restrictions, next observation, deadline and escalation owner. Identify which information must survive a terminal failure and which restrictions require explicit acknowledgement.
+2. Test the time available to transfer work. In an illustrative handover, six exceptional cases need two minutes each and a common briefing takes four minutes. A scheduled ten-minute overlap leaves a six-minute shortfall. Compare a longer overlap, an earlier prepared briefing with verification, or a named relief role. State how incoming exceptions are handled during the briefing.
+3. Define a single event for transfer of control. Establish what each person may do if acknowledgement fails. Decide how affected workers learn who currently has authority.
+
+Exercise a handover with an alarm arriving during transfer and with the incoming operator delayed. Observe who acts, whether any case exceeds its deadline and how the history can be reconstructed. Reopen after a staffing, workflow or control-interface change.

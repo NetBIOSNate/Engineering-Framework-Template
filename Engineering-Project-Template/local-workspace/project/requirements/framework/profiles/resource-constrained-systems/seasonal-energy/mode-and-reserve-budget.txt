@@ -1,0 +1,9 @@
+Budget energy across a low-supply interval
+
+Use when a field asset must survive periods without resupply. The mission owner ranks tasks by the consequence of deferral. The power lead owns usable capacity under the agreed temperature, battery age and discharge rate. State the service the user can still expect when energy is low and how they can recognize that mode.
+
+1. Construct an operating cycle from time spent in each mutually exclusive mode. Include transition energy, start-up surge and losses at the boundary used for measurement. Check peak current separately because a system can satisfy its daily energy budget and still reset at start-up.
+2. In an illustrative 24-hour cycle, a device draws 12 W for two hours and 1 W for 22 hours, requiring 46 Wh/day at the load. At 80 percent conversion efficiency the battery supplies 57.5 Wh/day. Three days consume 172.5 Wh before any reserve. Nominal battery capacity needs a separate usable-capacity estimate.
+3. Define entry and exit thresholds for reduced service. Exercise repeated low-charge transitions and check for oscillation, lost observations and inability to restart.
+
+Review a measured cycle and a sustained low-supply exercise with the mission owner. Record the lowest reserve, functions deferred and restoration order. Revisit after changes to climate envelope, duty cycle, maintenance interval or battery substitution.

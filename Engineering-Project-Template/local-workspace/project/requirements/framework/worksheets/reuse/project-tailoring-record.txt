@@ -1,0 +1,19 @@
+Worksheet | Project tailoring agreement
+
+Project and sponsor                     [Decision being enabled]
+System type and scope                   [Product, service, physical asset, combined operation]
+Most consequential loss                 [Event, affected party, reversibility and cost of discovery]
+Earliest expensive commitment           [Tooling, contract, data transfer or public interface]
+Minimum useful records                  [Where need, requirement, allocation and verdict will live]
+Additional views or specialist profiles [Trigger, chosen guide, owner and expected decision]
+Responsibilities                         [Need owner, system owner, verifier, operator, acceptor]
+Review independence                      [Who can challenge the claim and inspect the evidence]
+Applicable external obligations          [Authority, edition, jurisdiction or contract and scope]
+Activities omitted or combined           [Reason, residual risk and signal to revisit]
+Evidence transition                      [What allows discovery, build, integration or operation]
+Review of this agreement                 [Trigger, person and decision date]
+
+Example entry for “activities omitted or combined”
+A single-team proof of concept combines mode and interface reviews in one annotated sequence. The systems lead will separate the supplier contract when an external company takes control of either endpoint. The current review assumes simulated users and an isolated environment.
+
+Try the proposed agreement on a degraded scenario. Walk from the stakeholder loss to the person allowed to accept the residual risk. If the owner or the evidence is unclear, add the missing field or view before the project commits.

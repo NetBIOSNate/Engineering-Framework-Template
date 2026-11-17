@@ -1,0 +1,11 @@
+Elicit needs when stakeholders disagree
+
+Preserve the reasons behind a request so the principal planner can arbitrate design tradeoffs and revisit them when circumstances change. Include people who bear costs or risk, including maintainers, people using assistive technology, neighboring systems and those affected by failure.
+
+1. Ask each participant for a recent incident, the desired outcome and the consequence of failure. Record source, operating condition and confidence. Mark secondhand accounts for confirmation.
+2. Separate desired outcomes, externally imposed limits and proposed design choices. Ask who can waive each limit and what evidence establishes it. Give unresolved conflicts a decision owner with authority over both sides.
+3. Reconstruct the conflict using the same workload and time window. Ask each party what measurable loss they could accept. Record unresolved dissent alongside the decision.
+
+Example. A field operator requests continuous position updates for recovery. A workforce representative wants protection against reconstruction of routine travel by supervisors. Explore which emergency role needs position, when it gains access and when access expires. Ask whether a drill can demonstrate recovery with a short-lived record. Keep the retention decision open until both purposes have owners.
+
+Review record. For each architecturally significant need, retain its source, affected party, outcome, limiting condition and decision authority. Have an affected party check the wording in their own terms.

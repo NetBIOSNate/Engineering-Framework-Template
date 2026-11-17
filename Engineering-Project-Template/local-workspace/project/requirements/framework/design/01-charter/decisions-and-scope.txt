@@ -1,0 +1,12 @@
+Charter a reusable requirements framework
+
+The first design decision is which project decisions the framework must support. Interview the person who funds work, the engineer who commits an interface, the operator who inherits the product and the person who accepts it. Ask each for one recent dispute that better requirements would have resolved. Save an anonymized account of the decision, the missing information and the cost of discovering it late.
+
+Write a one-page charter answering four questions.
+
+1. What belongs inside the system of interest? Identify actors and exchanges just outside it. On a physical product this may include a fixture, an operator or a maintainer. A shared service may depend on identity providers and clients controlled by other teams.
+2. Which decisions recur across projects? Examples include accepting an external obligation, splitting a timing budget, deferring a feature, authorizing a trial or retiring a fallback.
+3. What is the lightest evidence that could support each decision? A verbal agreement may suffice for an easily reversed prototype choice. A supplier interface frozen before tooling warrants agreed tolerances, compatible revisions and a way to inspect incoming assemblies.
+4. Who can change the framework itself? Distinguish responsibility for guidance from authority over a product requirement. Give projects a route to report a field they cannot use or a risk with no home.
+
+Review the charter against two unlike projects. A service owner and an equipment engineer should each be able to name an upcoming decision and use the charter to identify the people and evidence it needs. Rewrite fields that require either project to invent a fictitious software component or physical part.

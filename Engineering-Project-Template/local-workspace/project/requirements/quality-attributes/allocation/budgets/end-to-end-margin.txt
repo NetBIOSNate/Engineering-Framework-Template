@@ -1,0 +1,10 @@
+Allocate budgets and preserve engineering margin
+
+Derive element obligations from a system limit and expose the assumptions linking element evidence to system evidence.
+
+1. Draw the critical path across sensing, processing, transfer and actuation. Account for queues, scheduling, conversion, retries and observation error. Show which activities overlap and which must complete in sequence.
+2. Start with a bounded example. A 120 ms upper limit allows 15 ms sampling, 25 ms transfer, 30 ms analysis, 25 ms actuation and 25 ms reserve. These allocations assume a single serial path and compatible worst-case conditions. Give each allocation an owner and specify the operating envelope.
+3. Record who can spend reserve and what evidence justifies the draw. If transfer needs ten additional milliseconds, compare consuming margin, improving another element and revisiting the mission requirement. Record effects on power, cost and maintainability alongside timing.
+4. Keep the system-level observation. Component percentiles alone do not establish the same end-to-end percentile. Exercise the complete path under correlated load, plausible interference and degraded operation.
+
+Review output. The sum or other stated composition rule reconciles to the target. Every claimed limit has an evidence method, assumptions and a margin owner.

@@ -1,0 +1,11 @@
+Divide a system budget among owners
+
+Divide a whole-system limit among contributors while retaining a measurable integration margin. Identify the quantity, unit, governing scenario and boundary. Some budgets add in series, some depend on a critical path, and others require a dependency model.
+
+1. Draw the actual path under the governing condition. Identify parallel work, shared resources, measurement overhead and waits between owners. Establish whether estimates are averages, bounds or percentiles.
+2. Allocate provisional bounds to accountable elements. Keep margin visible at the system level. Define how a contributor requests more budget and which system owner accepts the resulting trade.
+3. Arrange an end-to-end measurement at representative load. Record model version and assumptions so an interface change triggers another calculation.
+
+Example. A planning exercise allows 200 ms from sensor ingress to displayed state. Allocate upper bounds of 35 ms to acquisition, 45 ms to transport, 60 ms to processing and 40 ms to presentation, leaving 20 ms margin. A 15 ms queue omitted between transport and processing reduces that margin to 5 ms. If inputs are 99th percentiles, their sum does not establish an end-to-end 99th percentile. Use paired observations of complete events.
+
+Review record. Each owner accepts a unit, bound, observation point and failure disposition. The system owner signs off the path assumptions and retains the integration margin.

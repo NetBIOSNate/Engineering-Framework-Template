@@ -1,0 +1,9 @@
+Reuse a claim across a family of products
+
+Identify the dimensions that can vary independently. Typical dimensions include power source, region, firmware, language, supplier revision, accessibility mode, network availability and service tier. State which combinations are supported, forbidden or awaiting evidence. Assign a configuration owner who can identify the actual assembled or deployed system.
+
+Begin with a claim and ask which variations can change its mechanism. A timing result for a powered terminal might transfer between two enclosure colors. It may fail to transfer to a low-power variant whose display sleeps. Record a rationale for equivalence and the observation that would disprove it. Test boundaries around a change in mechanism and include credible combinations of variations.
+
+Example. An air-gapped variant has the same authorization rules as a connected version, but uses offline credentials during service. Reuse evidence for interpreting roles only if the meaning and representation are shared. Add separate evidence for freshness, revocation policy and repair access. Specify the circumstances under which an operator can distinguish a stale decision from a current one.
+
+Build a compact matrix with claim, supported configuration, representative tested configuration, equivalence rationale, exclusions and evidence owner. Trace one shipped variant backward to every applicable requirement and forward to each open exception. Reject unsupported extrapolation when the relevant input, clock, environment or implementation revision cannot be established.

@@ -1,0 +1,10 @@
+Set a quality target that will survive measurement
+
+Turn an architectural concern into a measurable response over a stated operating envelope.
+
+1. Name the source of a stimulus, the event, the affected part of the system, the environment, the expected response and the response measure. Include the part of the user journey that determines whether the outcome was useful.
+2. Specify load mix, population, sample window, units and measurement points. Mark which clock observes both ends or bound clock error. Define how abandoned, failed and retried requests enter the result. A responsive system can appear faster when slow attempts silently disappear.
+3. For a booking journey, an illustrative target is 95 percent of submitted requests receiving a definitive result within two seconds during an hour at 40 arrivals per second. Count every original submission once. Report late results, failures and unresolved requests separately. Record the distribution across high- and low-volume user groups.
+4. Identify the stress point where a different behavior is acceptable. Specify who sees degraded service, which work retains priority and how normal service resumes.
+
+Review output. A reviewer can reproduce the population and measurement from the record and explain exactly which architectural tradeoff would put the target at risk.

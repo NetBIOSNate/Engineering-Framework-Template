@@ -1,0 +1,11 @@
+Keep a baseline intelligible as the system changes
+
+Preserve the identity and rationale of the agreed obligations for each release or configuration. A baseline identifies a coherent set of revisions and their approval state. A fielded variant can retain an earlier obligation after new development adopts its successor.
+
+1. Record the proposed change, source, urgency, affected configuration and the problem it solves. Find upstream needs and downstream allocations, interfaces, decisions, test cases, support commitments and supplier agreements. Check for implicit coupling through common limits or operating assumptions.
+2. Give the requester a comparison of cost, timing, risk and coverage for keeping, changing or deferring the obligation. Identify which previously accepted evidence remains applicable and justify that conclusion.
+3. Record the authority's disposition, effective configuration, replacement identifier or revision, transition plan and communication owner. Preserve the prior decision so a reviewer can reconstruct an earlier release.
+
+Example. Raising a field unit's observation frequency fourfold changes its observation count and may change transmission demand, offline storage reserve and energy use. A bench test of sampling frequency covers just one impact. Reopen the three allocations and the endurance evidence before applying the new requirement to battery-powered variants.
+
+Review record. Starting from either the old or new configuration, an independent reviewer can find the applicable wording, effective decision, impacted owners and the evidence still due.

@@ -1,0 +1,229 @@
+Requirements framework additions | 9 November 2026
+
+Scope
+All paths below are relative to Engineering-Project-Template. Subject guides and reusable planning materials live under project/requirements. This file is the final addition.
+
+Start here
+project/requirements/START-HERE.md
+project/requirements/framework/navigation/guide-catalog.md
+project/requirements/framework/stewardship/delivery/creation-and-verification.txt
+
+Delivery totals
+75 new documents including this inventory.
+110 new directories. Each new intermediate directory is listed.
+72 plain-text guides, worksheets, reference documents and example chapters under requirements, containing approximately 17,151 whitespace-delimited words.
+Seven original requirements subjects and all four original game-design branches received guidance.
+
+Content by purpose
+2 | Business outcomes
+2 | Functional behavior
+2 | Quality attributes
+2 | Accessibility
+2 | Privacy
+4 | Game design
+2 | Acceptance criteria
+6 | Designing the framework
+12 | Applying the requirements lifecycle
+10 | Architectural decision workshops
+10 | Profiles for specific operating conditions
+7 | Reusable records
+4 | Worked inspection-bench example
+3 | Learning, review and handoff
+2 | Reference and vocabulary
+2 | Creation and verification
+1 | Starting guide
+1 | Linked guide catalog
+1 | This inventory
+
+Verification
+All 151 file paths and SHA-256 digests captured at discovery matched immediately before this inventory was created. All 582 original directory paths were present. Local navigation targets were resolved on disk. The inventory includes its own path.
+
+Added directories | D records
+D  project/requirements/acceptance-criteria/evidence/
+D  project/requirements/acceptance-criteria/evidence/design/
+D  project/requirements/acceptance-criteria/validation/
+D  project/requirements/acceptance-criteria/validation/operations/
+D  project/requirements/accessibility/journeys/
+D  project/requirements/accessibility/journeys/interaction/
+D  project/requirements/accessibility/operations/
+D  project/requirements/accessibility/operations/degraded/
+D  project/requirements/business/outcomes/
+D  project/requirements/business/outcomes/value/
+D  project/requirements/business/stakeholders/
+D  project/requirements/business/stakeholders/authority/
+D  project/requirements/framework/
+D  project/requirements/framework/adoption/
+D  project/requirements/framework/adoption/handoffs/
+D  project/requirements/framework/adoption/learning/
+D  project/requirements/framework/adoption/reviews/
+D  project/requirements/framework/design/
+D  project/requirements/framework/design/01-charter/
+D  project/requirements/framework/design/02-information-model/
+D  project/requirements/framework/design/03-viewpoints/
+D  project/requirements/framework/design/04-tailoring/
+D  project/requirements/framework/design/05-adoption/
+D  project/requirements/framework/design/06-governance/
+D  project/requirements/framework/examples/
+D  project/requirements/framework/examples/inspection-bench/
+D  project/requirements/framework/examples/inspection-bench/01-frame/
+D  project/requirements/framework/examples/inspection-bench/02-allocate/
+D  project/requirements/framework/examples/inspection-bench/03-verify/
+D  project/requirements/framework/examples/inspection-bench/04-accept/
+D  project/requirements/framework/lifecycle/
+D  project/requirements/framework/lifecycle/01-frame/
+D  project/requirements/framework/lifecycle/01-frame/mission/
+D  project/requirements/framework/lifecycle/01-frame/stakeholders/
+D  project/requirements/framework/lifecycle/02-specify/
+D  project/requirements/framework/lifecycle/02-specify/drivers/
+D  project/requirements/framework/lifecycle/02-specify/statements/
+D  project/requirements/framework/lifecycle/03-allocate/
+D  project/requirements/framework/lifecycle/03-allocate/boundaries/
+D  project/requirements/framework/lifecycle/03-allocate/system/
+D  project/requirements/framework/lifecycle/04-decide/
+D  project/requirements/framework/lifecycle/04-decide/handoff/
+D  project/requirements/framework/lifecycle/04-decide/options/
+D  project/requirements/framework/lifecycle/05-assure/
+D  project/requirements/framework/lifecycle/05-assure/validation/
+D  project/requirements/framework/lifecycle/05-assure/verification/
+D  project/requirements/framework/lifecycle/06-steward/
+D  project/requirements/framework/lifecycle/06-steward/baselines/
+D  project/requirements/framework/lifecycle/06-steward/service/
+D  project/requirements/framework/navigation/
+D  project/requirements/framework/profiles/
+D  project/requirements/framework/profiles/data-exchange/
+D  project/requirements/framework/profiles/data-exchange/brownfield-cutover/
+D  project/requirements/framework/profiles/field-instruments/
+D  project/requirements/framework/profiles/field-instruments/disconnected-operation/
+D  project/requirements/framework/profiles/human-operated-systems/
+D  project/requirements/framework/profiles/human-operated-systems/shift-handover/
+D  project/requirements/framework/profiles/interactive-systems/
+D  project/requirements/framework/profiles/interactive-systems/networked-play/
+D  project/requirements/framework/profiles/manufactured-products/
+D  project/requirements/framework/profiles/manufactured-products/service-interchange/
+D  project/requirements/framework/profiles/physical-control/
+D  project/requirements/framework/profiles/physical-control/stored-energy/
+D  project/requirements/framework/profiles/predictive-systems/
+D  project/requirements/framework/profiles/predictive-systems/population-shift/
+D  project/requirements/framework/profiles/resource-constrained-systems/
+D  project/requirements/framework/profiles/resource-constrained-systems/seasonal-energy/
+D  project/requirements/framework/profiles/scientific-measurement/
+D  project/requirements/framework/profiles/scientific-measurement/calibration-drift/
+D  project/requirements/framework/profiles/shared-services/
+D  project/requirements/framework/profiles/shared-services/tenant-contention/
+D  project/requirements/framework/reference/
+D  project/requirements/framework/reference/industry/
+D  project/requirements/framework/reference/language/
+D  project/requirements/framework/stewardship/
+D  project/requirements/framework/stewardship/delivery/
+D  project/requirements/framework/worksheets/
+D  project/requirements/framework/worksheets/allocation/
+D  project/requirements/framework/worksheets/change/
+D  project/requirements/framework/worksheets/decisions/
+D  project/requirements/framework/worksheets/evidence/
+D  project/requirements/framework/worksheets/intake/
+D  project/requirements/framework/worksheets/reuse/
+D  project/requirements/framework/worksheets/specification/
+D  project/requirements/framework/workshops/
+D  project/requirements/framework/workshops/continuity/
+D  project/requirements/framework/workshops/economics/
+D  project/requirements/framework/workshops/enterprise/
+D  project/requirements/framework/workshops/hazards/
+D  project/requirements/framework/workshops/physical-realization/
+D  project/requirements/framework/workshops/protection/
+D  project/requirements/framework/workshops/resources/
+D  project/requirements/framework/workshops/sourcing/
+D  project/requirements/framework/workshops/strategy/
+D  project/requirements/framework/workshops/variants/
+D  project/requirements/functional/behavior/
+D  project/requirements/functional/behavior/modes/
+D  project/requirements/functional/interfaces/
+D  project/requirements/functional/interfaces/contracts/
+D  project/requirements/game-design/balancing/economy/
+D  project/requirements/game-design/mechanics/rules/
+D  project/requirements/game-design/narrative/branches/
+D  project/requirements/game-design/progression/persistence/
+D  project/requirements/privacy/lifecycle/
+D  project/requirements/privacy/lifecycle/disposition/
+D  project/requirements/privacy/lifecycle/purpose/
+D  project/requirements/quality-attributes/allocation/
+D  project/requirements/quality-attributes/allocation/budgets/
+D  project/requirements/quality-attributes/scenarios/
+D  project/requirements/quality-attributes/scenarios/measurement/
+
+Added documents | F records
+Each line records a path and a descriptive document title.
+F  project/requirements/acceptance-criteria/evidence/design/verification-cases.txt	Design evidence before the architecture is fixed
+F  project/requirements/acceptance-criteria/validation/operations/fitness-for-use.txt	Validate fitness for an operating situation
+F  project/requirements/accessibility/journeys/interaction/equivalent-actions.txt	Plan an accessible end-to-end task
+F  project/requirements/accessibility/operations/degraded/multimodal-feedback.txt	Preserve access during mode changes
+F  project/requirements/business/outcomes/value/mission-measures.txt	Mission measures and the decision to invest
+F  project/requirements/business/stakeholders/authority/conflicting-needs.txt	Resolve competing needs at the system boundary
+F  project/requirements/framework/adoption/handoffs/existing-template-destinations.txt	Where requirements hand off to the existing template
+F  project/requirements/framework/adoption/learning/first-planning-session.txt	A first planning session
+F  project/requirements/framework/adoption/reviews/entry-exit-and-decision-rights.txt	Decide what the next commitment authorizes
+F  project/requirements/framework/design/01-charter/decisions-and-scope.txt	Charter a reusable requirements framework
+F  project/requirements/framework/design/02-information-model/records-and-relationships.txt	Design the information model
+F  project/requirements/framework/design/03-viewpoints/choosing-and-checking-views.txt	Select viewpoints from decisions
+F  project/requirements/framework/design/04-tailoring/risk-and-project-scale.txt	Tailor the depth of the evidence
+F  project/requirements/framework/design/05-adoption/pilot-and-calibrate.txt	Implement the framework on a real decision
+F  project/requirements/framework/design/06-governance/baselines-and-exceptions.txt	Govern a baseline without freezing discovery
+F  project/requirements/framework/examples/inspection-bench/01-frame/need-and-agreement.txt	Inspection bench | Decide which results may be released
+F  project/requirements/framework/examples/inspection-bench/02-allocate/requirements-and-design.txt	Inspection bench | Allocate the release decision
+F  project/requirements/framework/examples/inspection-bench/03-verify/cases-and-results.txt	Inspection bench | Plan the oracle and inspect the evidence
+F  project/requirements/framework/examples/inspection-bench/04-accept/change-and-operational-validation.txt	Inspection bench | Change the design and authorize a bounded use
+F  project/requirements/framework/lifecycle/01-frame/mission/operating-concept.txt	The operating concept
+F  project/requirements/framework/lifecycle/01-frame/stakeholders/needs-and-conflicts.txt	Elicit needs when stakeholders disagree
+F  project/requirements/framework/lifecycle/02-specify/drivers/priority-and-uncertainty.txt	Select requirements that can change the architecture
+F  project/requirements/framework/lifecycle/02-specify/statements/measurable-obligations.txt	Turn a need into a verifiable obligation
+F  project/requirements/framework/lifecycle/03-allocate/boundaries/interface-obligations.txt	Specify an interface both parties can accept
+F  project/requirements/framework/lifecycle/03-allocate/system/budgets-and-margins.txt	Divide a system budget among owners
+F  project/requirements/framework/lifecycle/04-decide/handoff/design-and-realization.txt	Hand architectural obligations to delivery teams
+F  project/requirements/framework/lifecycle/04-decide/options/sensitivity-and-tradeoffs.txt	Choose among feasible architectures
+F  project/requirements/framework/lifecycle/05-assure/validation/operational-acceptance.txt	Validate the intended outcome
+F  project/requirements/framework/lifecycle/05-assure/verification/evidence-design.txt	Choose sufficient verification evidence
+F  project/requirements/framework/lifecycle/06-steward/baselines/change-impact.txt	Keep a baseline intelligible as the system changes
+F  project/requirements/framework/lifecycle/06-steward/service/feedback-and-retirement.txt	Learn from service and close obligations
+F  project/requirements/framework/navigation/guide-catalog.md	Requirements guide catalog
+F  project/requirements/framework/profiles/data-exchange/brownfield-cutover/identity-and-reconciliation.txt	Preserve business meaning across a cutover
+F  project/requirements/framework/profiles/field-instruments/disconnected-operation/custody-and-replay.txt	Keep observations attributable through a disconnection
+F  project/requirements/framework/profiles/human-operated-systems/shift-handover/authority-and-open-work.txt	Transfer control without losing open work
+F  project/requirements/framework/profiles/interactive-systems/networked-play/latency-and-authority.txt	Separate local feedback from shared outcomes
+F  project/requirements/framework/profiles/manufactured-products/service-interchange/fit-across-variants.txt	Keep replacement parts interchangeable in the field
+F  project/requirements/framework/profiles/physical-control/stored-energy/power-loss-and-restart.txt	Safe state across a power interruption
+F  project/requirements/framework/profiles/predictive-systems/population-shift/referral-and-model-release.txt	Keep referred cases within human review capacity
+F  project/requirements/framework/profiles/resource-constrained-systems/seasonal-energy/mode-and-reserve-budget.txt	Budget energy across a low-supply interval
+F  project/requirements/framework/profiles/scientific-measurement/calibration-drift/uncertainty-and-disposition.txt	Define the decision at the measurement boundary
+F  project/requirements/framework/profiles/shared-services/tenant-contention/admission-and-fairness.txt	Bound interference between tenants
+F  project/requirements/framework/reference/industry/standards-and-methods.txt	How published frameworks inform this guide
+F  project/requirements/framework/reference/language/working-glossary.txt	A glossary for cross-discipline reviews
+F  project/requirements/framework/stewardship/delivery/creation-and-verification.txt	How this extension was designed, installed and checked
+F  project/requirements/framework/stewardship/delivery/read-only-inventory-check.txt	Read the delivery inventory with Windows PowerShell
+F  project/requirements/framework/worksheets/allocation/trace-and-coverage.txt	Worksheet | Trace and coverage register
+F  project/requirements/framework/worksheets/change/impact-and-release.txt	Worksheet | Change impact and scope of approval
+F  project/requirements/framework/worksheets/decisions/options-and-risk.txt	Worksheet | Decision, options and residual exposure
+F  project/requirements/framework/worksheets/evidence/verification-and-validation.txt	Worksheet | Evidence and acceptance decision
+F  project/requirements/framework/worksheets/intake/need-and-operating-envelope.txt	Worksheet | Need and operating envelope
+F  project/requirements/framework/worksheets/reuse/project-tailoring-record.txt	Worksheet | Project tailoring agreement
+F  project/requirements/framework/worksheets/specification/requirement-card.txt	Worksheet | Requirement card
+F  project/requirements/framework/workshops/continuity/restoration-and-backlog.txt	Budget restoration from the customer's clock
+F  project/requirements/framework/workshops/economics/whole-life-options-and-sensitivity.txt	Compare options over the period the owner must support
+F  project/requirements/framework/workshops/enterprise/independent-authorities-and-transitions.txt	Plan a change across independently governed systems
+F  project/requirements/framework/workshops/hazards/independence-and-control.txt	Derive requirements from loss of control
+F  project/requirements/framework/workshops/physical-realization/manufacture-service-and-disposal.txt	Bring the factory, maintainer and end-of-life owner into the boundary
+F  project/requirements/framework/workshops/protection/authority-and-misuse.txt	Translate a protection need into boundary requirements
+F  project/requirements/framework/workshops/resources/duty-cycle-and-environment.txt	Turn a resource constraint into a whole-mission budget
+F  project/requirements/framework/workshops/sourcing/acquisition-and-exit.txt	Define what a supplier must deliver and what a project must retain
+F  project/requirements/framework/workshops/strategy/integration-order-and-learning.txt	Sequence architecture work around the first expensive commitment
+F  project/requirements/framework/workshops/variants/configurations-and-evidence-credit.txt	Reuse a claim across a family of products
+F  project/requirements/functional/behavior/modes/state-transitions.txt	Specify behavior across modes and interruptions
+F  project/requirements/functional/interfaces/contracts/boundary-obligations.txt	Allocate obligations across an interface
+F  project/requirements/game-design/balancing/economy/feedback-and-exploits.txt	Bound feedback loops in a resource economy
+F  project/requirements/game-design/mechanics/rules/authority-and-replay.txt	Define rule authority and reproducible outcomes
+F  project/requirements/game-design/narrative/branches/continuity-and-variants.txt	Specify continuity across branching stories
+F  project/requirements/game-design/progression/persistence/checkpoints-and-migration.txt	Preserve earned progress across interruption and change
+F  project/requirements/privacy/lifecycle/disposition/deletion-and-restoration.txt	Plan disposition across copies and recovery
+F  project/requirements/privacy/lifecycle/purpose/minimum-data.txt	Derive data needs from decisions
+F  project/requirements/quality-attributes/allocation/budgets/end-to-end-margin.txt	Allocate budgets and preserve engineering margin
+F  project/requirements/quality-attributes/scenarios/measurement/response-envelope.txt	Set a quality target that will survive measurement
+F  project/requirements/START-HERE.md	Requirements planning field guide
+F  REQUIREMENTS-ADDITIONS.txt	Requirements framework additions

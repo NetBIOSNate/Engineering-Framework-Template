@@ -1,0 +1,10 @@
+Mission measures and the decision to invest
+
+Agree on whose problem warrants investment and the observable change that would make the intervention worthwhile.
+
+1. Ask the sponsor and an affected operator to describe the last occurrence. Capture the trigger, elapsed time, cost of delay, consequences and people who worked around the problem. Record where the account came from and the population it represents.
+2. Establish the baseline and its denominator. Separate the outcome the sponsor values from the activity the team can count. Identify one countermeasure that would reveal harm displaced to someone else.
+3. Compare the present arrangement, a process change and a product change. Write the causal assumption linking each option to the outcome. Assign the weakest assumption an owner and a date for a trial.
+4. Set the decision rule before the trial. For a depot, compare median wait from arrival to release across comparable shifts. An illustrative target is a fall from 32 to 20 minutes with missed inspections below one per 500 releases. Report sample size and exceptional closures alongside both measures.
+
+Review output. A one-page outcome record identifies the beneficiary, baseline period, target, guardrail, source and sponsor empowered to expand, revise or stop the investment.

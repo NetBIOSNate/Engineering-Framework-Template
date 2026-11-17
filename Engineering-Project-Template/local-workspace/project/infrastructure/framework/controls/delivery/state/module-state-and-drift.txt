@@ -1,0 +1,17 @@
+Infrastructure-as-code module contracts, state and drift
+
+Goal
+Two engineers can work independently within defined ownership boundaries, reproduce the intended resource layout and recover from an interrupted change without losing track of a live resource.
+
+Implementation
+1. Give each module a narrow lifecycle owner. Document required inputs, output stability, provider compatibility, naming rules, permissions, expected defaults and which input changes replace resources. Prefer references or secret identifiers over raw values. Define how existing resources are adopted and how consumers move between versions, especially when resource addresses change.
+2. Draw a state boundary around resources that need the same change authority and recovery procedure. Separate production from experiments. Protect state and saved plans as sensitive artifacts. Use backend-supported locking or a single authorized writer. Enable versioned recovery, then restore a copy in isolation and verify its lineage and resource mappings before any apply.
+3. Capture desired revision, observed resource identifiers and state generation before preview. Replan when target state changes between preview and apply. On partial failure, record provider operations, inspect live inventory and determine which resources succeeded. Resolve stale mappings or imports in a narrow scope. Release a stale lock only after proving its holder cannot resume.
+4. Test a first apply, a repeat preview, a deliberate console drift and two overlapping changes. Define which attributes a controller reconciles automatically and which require owner review. Preserve an allowed provider-managed attribute through convergence.
+
+Handoff
+Record unusual imports, module compatibility window, drift disposition and repair owner. Give each exception a reason and expiry. For a reconciler, exercise a supervised pause and resume during containment.
+
+Reference
+NIST SP 800-128, Guide for Security-Focused Configuration Management of Information Systems
+https://csrc.nist.gov/pubs/sp/800/128/upd1/final

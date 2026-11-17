@@ -1,0 +1,33 @@
+A glossary for cross-discipline reviews
+
+Acceptance | An authorized decision to take delivery or permit use in a stated scope. Receiving an item and authorizing operational use may belong to different people.
+
+Allocation | Assignment of an obligation or a share of a system budget to an element, interface, person or organization. Several assignments may be needed to satisfy one obligation.
+
+Architecture driver | A need, constraint or requirement that changes a consequential decision about boundaries, responsibilities, interactions or deployment. Explain the choice that would change.
+
+Assumption | A proposition used provisionally to make progress. Record how it can be challenged and what depends on it.
+
+Baseline | An identified and recoverable set of agreed revisions. A document marked final without a description of its applicable configuration makes a weak baseline.
+
+Constraint | A restriction with an identifiable source of authority. A selected design can create a constraint for a downstream team.
+
+Evidence | An observation or substantiated analysis about a named configuration. A test plan describes evidence to be collected.
+
+Guardband | A deliberate adjustment to an acceptance limit to account for measurement uncertainty under a stated decision rule.
+
+Interface | A crossing of responsibility for data, material, energy or action. Both parties must agree what counts as a completed exchange.
+
+Margin | The difference between an allocated system limit and its justified consumption. Specify its units, owner and rule for release.
+
+Mode | An operating condition that changes the permitted behaviors or authorities. Include entry, exit and observable indication.
+
+Oracle | The independent rule or reference that determines an expected result. A component agreeing with its own calculation can hide a common error.
+
+Requirement | An obligation whose satisfaction can be judged at an identified boundary under stated conditions. A need explains the outcome a stakeholder values.
+
+Validation | Evidence that the system serves an intended use in its intended setting. Invite the affected people to perform the work.
+
+Verification | Evidence that the specified obligations have been met. Record the method, configuration, measurement and disposition.
+
+Viewpoint and view | A viewpoint defines conventions for answering a stakeholder question. A view applies those conventions to a particular system.

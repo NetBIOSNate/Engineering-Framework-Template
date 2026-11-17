@@ -1,0 +1,10 @@
+Plan disposition across copies and recovery
+
+A disposition decision must survive normal replication, recovery, transfer of ownership and retirement.
+
+1. Trace an illustrative record through primary storage, derived indexes, analytics, exported reports, processors and restore copies. Mark which component can locate it and which authority can order deletion, restriction or preservation. Distinguish an operational target from an obligation verified by its owner.
+2. Agree when the clock starts. A request, account closure and end of a retention period can have different consequences. Define a receipt, an in-progress status, completion criteria and escalation if a supplier cannot confirm disposition.
+3. Walk restoration from a snapshot preceding a disposition. Specify who isolates the restored copy, how later restrictions are reapplied and what evidence allows service to resume. Where a backup expires on rotation, state its allowed uses and expiry condition.
+4. Exercise a request involving an alias and a preservation hold using fabricated data. Check that lookup covers authorized identifiers, retained material stays restricted and the disposition record itself exposes only necessary information.
+
+Review output. A copy-by-copy register records the deadline or trigger, responsible party, proof, permitted residual copies and action on restore.

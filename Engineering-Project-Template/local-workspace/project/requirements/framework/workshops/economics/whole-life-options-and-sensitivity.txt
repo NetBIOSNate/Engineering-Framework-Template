@@ -1,0 +1,12 @@
+Compare options over the period the owner must support
+
+Agree on the unit of value and the planning horizon. Capture acquisition, integration, testing, training, energy, support, changeover and retirement. Record who pays each cost and where a cheaper design transfers work to an operator, another team or a customer. Apply mandatory constraints before comparing feasible choices.
+
+A three-year illustrative comparison uses the same service volume and currency. Option A costs 40,000 up front and 18,000 annually. Option B costs 65,000 up front and 8,000 annually. Undiscounted totals are 94,000 and 89,000. The extra 25,000 pays back in 2.5 years at 10,000 annual savings. If usage cuts those savings to 5,000 annually, payback stretches to five years. Clarify whether both options remain available and supported over that period. Use the organization's discount assumptions when the timing of cash flows matters.
+
+Ask which input can reverse the decision. Get one observation of that input before refining less influential estimates. Include downtime, staffing or environmental externalities as separate quantities when converting them to currency would hide a critical limit. Never average a breached binding limit into an attractive score.
+
+Record the alternatives, cost basis, uncertainty, exclusions, constraint results and owner of the final trade. State the demand level, contract date or support change that would reopen the choice. The result should let a future reviewer reconstruct why an option was attractive at the time.
+
+Reference for decision analysis. NASA Systems Engineering Handbook, section 6.8
+https://www.nasa.gov/reference/6-8-decision-analysis/

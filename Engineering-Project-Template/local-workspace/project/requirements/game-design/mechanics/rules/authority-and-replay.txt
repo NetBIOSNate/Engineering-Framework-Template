@@ -1,0 +1,10 @@
+Define rule authority and reproducible outcomes
+
+A participant, referee and implementer should be able to resolve the same action from the same admissible starting state.
+
+1. Select a mechanic whose outcome affects other participants. Name the authoritative state, allowed inputs, decision instant, tie rule and visible feedback. Specify which state changes are provisional while waiting for confirmation.
+2. Walk two participants claiming the final token simultaneously. Agree how the arbiter orders claims, what the losing participant sees and what happens if an acknowledgement is lost. For a tabletop exercise, identify the referee and the observable cue that fixes the order.
+3. Declare the required level of replay. A recorded sequence of inputs can reproduce a decision only if initial state, rule revision and relevant sources of chance or timing are recoverable. Decide whether recording the authoritative outcome is sufficient for audit.
+4. Write cases for a duplicate action, late action, ambiguous ordering and reconnect. Identify actions that may be predicted for responsiveness and what correction is acceptable on disagreement.
+
+Review output. A rule sheet contains example initial states, event sequences, outcomes, actor-visible signals and an owner for unresolved edge cases. Use the same method for simulations or competitive allocation systems.

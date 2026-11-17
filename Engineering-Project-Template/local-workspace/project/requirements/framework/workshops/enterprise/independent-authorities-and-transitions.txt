@@ -1,0 +1,11 @@
+Plan a change across independently governed systems
+
+Draw the capability the enterprise wants to deliver, such as return of a reusable instrument to service. Beneath it, list the organizations that can independently change their processes. Record the authority each holds, its incentives to participate and its ability to withdraw. A technical dependency with no negotiated service or operating agreement is a planning assumption.
+
+Describe the baseline and target using the same end-to-end scenario. A regional depot may call an instrument available when it leaves repair. The receiving lab may require a valid calibration and a clean chain of custody. Establish the business meanings and identify whose records govern each fact. A common message format alone cannot settle this disagreement.
+
+Construct a transition state in which one region still uses the older agreement. Which actor may update availability? How does a new receiver interpret an absent calibration reference? Set a rule for mixed operation, define the validation signal that each participant can observe, and identify the authority deciding when a region may switch. Exercise the exit of one participant while others continue.
+
+Compare central and federated ownership against the same requirements. Central release simplifies a single eligibility decision while introducing a dependency on one organization. Local decisions permit autonomy while requiring compatible policy and reconciliation. Price coordination, failure and change authority alongside infrastructure. Record the decision in terms of the business capability, baseline, target, negotiated obligations and intermediate state.
+
+Finish when each organization can independently name the change it must fund, the behavior it can assume during transition, the evidence it owes and the fallback it can invoke.

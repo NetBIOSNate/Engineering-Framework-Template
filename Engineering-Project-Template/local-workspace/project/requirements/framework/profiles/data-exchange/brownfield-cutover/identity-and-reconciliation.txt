@@ -1,0 +1,9 @@
+Preserve business meaning across a cutover
+
+Apply when an established system and its replacement can both change the same business entity. The process owner defines the business invariant in the vocabulary of operators. For a transfer register, an accepted transfer has one durable identity, one terminal disposition and a recoverable audit trail. Document where the old system permits corrections after the nominal close of a period.
+
+1. Assign write authority by entity and migration wave. Specify the event that moves authority and the action taken by a stale writer. Make correction and cancellation semantics part of the exchange contract.
+2. Choose reconciliation oracles that expose offsetting defects. An illustrative run migrates 10,000 transfers with a matching total value. A duplicated transfer of 40 units and a missing transfer of 40 units leave that total unchanged. Check stable identifiers, versions, state transitions and totals grouped by currency and settlement date.
+3. State the rollback boundary. Once the new system emits an externally settled transfer, recovery may require a compensating entry. Identify its authorizer and downstream obligations.
+
+Rehearse a late correction and an interrupted transfer of authority. Capture both ledgers, unmatched identities and the disposition of every difference. The receiving owner signs the reconciliation for the named wave. Repeat when identifiers, settlement semantics or migration order change.

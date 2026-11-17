@@ -1,0 +1,10 @@
+Derive data needs from decisions
+
+Every identifiable datum needs a defined purpose, authorized consumer and end-of-use condition.
+
+1. Begin with the decision the service must make. Work backward to the smallest set of observations that support it. Compare a local computation, an aggregate, a short-lived identifier and an identifiable central record. Include accuracy and support costs in the comparison.
+2. Draw each collection, derivation, transfer and disclosure. Add logs, crash reports, exports, backups, supplier copies and support access. Explain what combining two apparently innocuous fields reveals about a person.
+3. For a building occupancy estimate, compare transmitting named access events with transmitting interval counts. Ask whether precise timing or small groups permit inference about individuals. Set an aggregation rule, minimum population or restricted use where the risk warrants it. Treat values as project decisions requiring evidence.
+4. Give each necessary data class a purpose owner, permitted recipients, retention trigger and disposition. Record the consequence if an item is missing, inaccurate or reused outside its original context.
+
+Review output. A reviewer can follow each field from origin to disposal and challenge any field whose claimed purpose survives its removal.

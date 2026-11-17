@@ -1,0 +1,16 @@
+Infrastructure artifact provenance and supplier trust
+
+Goal
+Before an image, provider binary, appliance update or infrastructure-as-code module reaches an environment, identify the exact bytes, authorized origin and decision that admitted them.
+
+Implementation
+1. Inventory critical inputs. Record supplier, immutable version or content digest, support horizon, update channel and remediation owner. Include build runners, host images, firmware, boot media and transitive modules. A software bill of materials lists included components for vulnerability triage. Build provenance records who produced a particular artifact and from which inputs.
+2. Establish the expected source, builder identity, signing root, allowed build parameters and approval owner through a trusted path. At admission, verify artifact digest against the attestation subject, authenticate the attestation and compare its contents with those expectations. Preserve the result with the artifact digest and policy revision. For a supplier lacking build provenance, document available signature checks, exposure, isolation, support path and the owner accepting residual risk.
+3. Exercise four negative cases in a test registry. Change one payload byte, substitute another legitimate supplier identity, change an approved parameter to an unauthorized value and try to admit a mutable tag after its contents move. Verify each prohibited artifact stays outside the target environment. Identify the failed check from the event record.
+4. For a disconnected site, bundle the verified manifest, artifact, verification material and approved transfer record. Test the site's signed update and recovery procedures on spare hardware. Define how a disconnected custodian learns about revocation or withdrawal and how long a stale trust bundle is usable.
+
+References
+SLSA v1.2, Verifying artifacts
+https://slsa.dev/spec/v1.2/verifying-artifacts
+NIST SP 800-161 Rev. 1, Cybersecurity Supply Chain Risk Management Practices
+https://csrc.nist.gov/pubs/sp/800/161/r1/upd1/final

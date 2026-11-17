@@ -1,0 +1,11 @@
+The operating concept
+
+Agree whose work the change enables, where system responsibility begins and ends, and how stakeholders would recognize success. A boundary includes people, equipment, services and organizations that exchange something with the system.
+
+1. Ask a front-line user to walk through an actual event from trigger to outcome. Capture elapsed time, handoffs, workarounds and decisions. Ask a maintainer to walk the same event during repair or degraded operation.
+2. Sketch the system as a single box. Label each crossing with the item exchanged, its direction, the responsible party and what happens when the exchange fails. Separate known constraints from assumptions that a named person can investigate.
+3. Describe normal, degraded, recovery and end-of-service operation. For each mode identify who has authority to enter it, who sees it, and how control returns to routine operation.
+
+Example. A dispatch planner asks for faster assignments. A ride-along reveals that crews already receive assignments quickly but wait for access clearance. Measure the interval from alert to permission to enter. Include the access authority in the context view before deciding whether dispatch software needs to change.
+
+Review record. Ask the operator and the access authority to replay one difficult event against the sketch. Record disputed ownership, the evidence needed to resolve it and the decision it blocks.

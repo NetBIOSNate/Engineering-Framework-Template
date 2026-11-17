@@ -1,0 +1,9 @@
+Separate local feedback from shared outcomes
+
+Use when users act on a shared simulation while their clients see different histories. The experience lead owns feedback and fairness goals. The simulation owner defines which entity can commit shared outcomes. Identify an action whose apparent and final outcomes may differ, such as two players claiming the same item.
+
+1. Define the two clocks a user experiences. Measure from physical input to the first visible acknowledgement and separately to presentation of the authoritative result. Name observation points and specify display refresh, input sampling, tick cadence, geography and packet conditions for the test.
+2. Build a representative timeline. An illustrative path uses 8 ms for input sampling, 35 ms each way on the network, 16 ms waiting for an authority tick and 16 ms for presentation, totaling 110 ms. Keep jitter, dropped packets and client stalls as explicit test conditions. A sum of representative times does not establish a percentile guarantee.
+3. Specify the response to disagreement. A locally predicted pickup may show immediate feedback, but awarding an item requires one authoritative claim. Define the correction seen by the losing player and a bound on stale feedback.
+
+Replay concurrent claims with packet duplication and variable delay. Verify unique ownership in shared state and evaluate each player's visible correction. Reopen these requirements when tick rate, device class or matchmaking geography changes.

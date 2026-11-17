@@ -1,0 +1,13 @@
+Inspection bench | Plan the oracle and inspect the evidence
+
+Baseline B-01 contains R-01, R-02 and R-03 at revision 1, D-01 and IF-01. Candidate C1 uses bench build 1 and release ruleset 1. The following are fictional results for a rehearsal. The quality lead provides an independent eligibility table. The test operator reads the published set from the same external boundary a recipient uses.
+
+C-01 checks R-01 and IF-01. Instrument I7 is eligible from 08:00:00 inclusive until 12:00:00 exclusive on the trial date in UTC. Capture A spans 11:59:50 through 11:59:52. Capture B spans 11:59:59 through 12:00:01. Capture C has an unknown upper time bound. A may publish. B and C must stay held. Replay A after a lost acknowledgement and inspect the recipient's records for a duplicate.
+
+E-01 on C1. A appeared once, C stayed held, B appeared once. R-01 fails. The release service compared only the estimated center time and treated the end boundary as inclusive. Stop the release trial, identify affected publications and bind the discrepancy to the tested ruleset. This evidence is incompatible with claiming success for C1.
+
+C-02 checks R-02. Isolate a bench with an empty spool, submit six unique records per minute for 120 minutes, cut power after a durable acknowledgement, then restart. E-02 on C1. The independent input register and the recovered spool agreed on all 720 identities and payloads. The operator reconciled before reconnecting. Pass for this defined workload and configuration.
+
+C-03 checks R-03. Retrieve held and confirmed records with contact up and down. E-03 on C1. The held indication matched the bench's stored disposition. A correct display of an incorrect upstream publication still leaves R-01 failed.
+
+Disposition. The quality lead declines authorization to publish from C1. Transfer the failed case, interval semantics and held validation event into the change record.

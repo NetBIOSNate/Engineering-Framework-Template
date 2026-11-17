@@ -1,0 +1,11 @@
+Choose sufficient verification evidence
+
+Define the evidence that will establish a stated requirement for a named configuration. Select inspection for a visible property, analysis for behavior derived from a justified model, demonstration for an observable task, or test for a controlled measurement. Complex claims often need more than one method.
+
+1. Define the observable, units, acceptance rule and instrument before sampling. Capture the specimen or build, environment, input population and expected disturbances. Identify shared causes that can bias nominally independent trials.
+2. Set a rule for invalid runs and missing data. Preserve raw observations, the calculation that produced the result and the version of the decision rule. Agree who can interpret a borderline result.
+3. Challenge the coverage of the method. Calibrate models against measurements. Where measurement uncertainty overlaps a limit, follow a pre-agreed decision rule or seek a more discriminating observation.
+
+Example. A response-time ceiling is 100 ms. A conservative rule requires measured time plus a bounded 3 ms measurement allowance to fit within the limit. A reading of 98 ms leaves this claim unresolved. Record the observation, investigate measurement error, and plan a new run or improve the instrument.
+
+Review record. A reviewer unfamiliar with the trial can reconstruct the verdict, its scope and each assumption that would invalidate reuse of the evidence.

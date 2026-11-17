@@ -1,0 +1,9 @@
+Keep referred cases within human review capacity
+
+Use when a model can refer uncertain cases to a person. The decision owner defines the adverse consequence of each error. The operations lead owns human review capacity. Name who can suspend model-driven decisions and how already queued cases will be handled. Preserve the model version and decision rule attached to each case.
+
+1. Select evaluation slices that represent actual inputs, including uncommon equipment, languages or acquisition conditions. Define the reference labels, label delay and treatment of ambiguous cases. Include a time-separated evaluation and state how repeated observations from the same subject are handled.
+2. Translate model behavior into operational demand. An illustrative service receives 1,200 cases/hour. An 8 percent referral rate generates 96 reviews/hour. Three reviewers completing 25 cases/hour each leave a deficit of 21 cases/hour before breaks and rework. Require a bound on queue age and specify the fallback when staffing or the mix changes.
+3. Define the release decision against agreed error costs, referral volume and the worst relevant slice. A small slice with few labels may require further evidence. Record who can accept that uncertainty and for how long.
+
+Replay a shift in case mix and a loss of review capacity. Obtain evidence from arrival to final disposition, including delayed or abandoned cases. Reopen after a model, threshold, input source or staffing change.

@@ -1,0 +1,16 @@
+Select viewpoints from decisions
+
+A viewpoint states what a reader needs to see, how the representation is constructed and the questions it should answer. A view applies those conventions to one system. Put the stakeholder and decision at the top of the view before choosing a drawing style.
+
+Stakeholder and decision       View to prepare                   Consistency check
+Sponsor sets the boundary      Context and outcome measures      Every external dependency has an accountable party.
+Operator takes control         Modes and transitions             Each manual override names who can exercise it.
+Integrator connects parts      Interface and allocation table    Two sides agree on units, custody and failure semantics.
+Maintainer isolates a fault    Physical or deployment view       Diagnostic path exists while the failed element is unavailable.
+Reviewer accepts a release     Claim and evidence map            Each claim names the tested revision and operating envelope.
+
+Trace a single event across views. Suppose an operator disables a conveyor section. The mode table assigns the operator authority, the physical view identifies a local station, and the interface record describes the signal to the upstream section. If the sequence assumes the upstream section sees confirmation while disconnected, the inconsistency creates a requirement or a design issue. Assign it to one owner and record the affected views.
+
+Select just enough detail to answer the open question. A control-room boundary drawing may stop at a cabinet. A maintainer replacing a board may need connector keying, isolation points and access clearance. Record why extra detail is worth maintaining and the change that requires its review.
+
+Exit when another reviewer can reconstruct an ordinary and a degraded event using the views, identify the owner at each boundary, and explain how a changed requirement would alter a design choice.

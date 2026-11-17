@@ -1,0 +1,34 @@
+Where requirements hand off to the existing template
+
+All lines beginning with “Open |” are relative to project/requirements. Use the existing discipline folders as destinations for a project's authoritative records. The handbook supplies field definitions and questions. A link to one approved requirement revision can serve several disciplines.
+
+Architect and design authority
+Carry the source, constraint and choice into a system view or decision. Return the allocation, shared assumption and derived obligations to the requirements register. Have the owner walk the same degraded case across both records.
+Open | ../architecture/framework/README.md
+Open | ../architecture/framework/worksheets/design/view-and-interface.md
+Open | ../architecture/framework/method/04-realize/design-to-implementation.md
+
+Contract and configuration owners
+Send the units, timing, custody and version compatibility required at the boundary. Get the normative contract and supported revision identities back. Schemas can establish shape while ownership and meaning still require explicit agreement.
+Open | ../contracts/compatibility
+Open | ../configuration/schemas
+
+Infrastructure and operations
+Send workloads, failure modes and the user-visible recovery condition. Get feasible limits, observation points, runbook ownership and evidence from an exercise. A platform objective must compose into a product-level outcome.
+Open | ../infrastructure/framework/design/requirements/quality/targets.md
+Open | ../operations/service-objectives
+Open | ../operations/recovery-procedures
+
+Data, privacy and protection
+Send the purposes, actors, retention boundary, protection need and misuse scenario. Get data ownership, relevant controls and evidence for restored copies or delegated use. Identify which party can decide an exception.
+Open | ../data-design/privacy-design/00-privacy-design-charter.txt
+Open | ../security/control-design
+Open | ../governance/risk-management
+
+Verification, validation and release
+Send the claim, fixture, decision rule, nominated configuration and authority. Get the observed result and discrepancies. Link the release decision to the evidence and record conditions that would trigger review.
+Open | ../tests/plans
+Open | ../tests/system
+Open | ../tests/usability
+Open | ../release-management/approvals
+Open | ../release-management/retirement

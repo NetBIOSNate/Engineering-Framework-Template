@@ -1,0 +1,9 @@
+Safe state across a power interruption
+
+Use this profile when an actuator can move or release stored energy after its controller loses power. The system owner defines a safe state for each mode with the operator and hazard specialist. For a suspended load, releasing a brake on power loss could worsen the hazard. Establish the holding condition, the independent means of detecting motion and who may authorize recovery.
+
+1. Draw the energy path and control path separately. Mark what survives the initiating fault, including shared supplies, sensors and connectors. Trace the interval from the fault at the plant to the physical achievement of the required state.
+2. Allocate the interval. An illustrative 180 ms budget assigns 25 ms to sensing, 20 ms to logic, 100 ms to mechanical response and 35 ms to uncertainty and margin. Record the worst load, temperature and wear assumptions that make these numbers meaningful.
+3. Specify restart eligibility, retained mode and local indication. Define how a technician proves the mechanism can hold before restoring motion.
+
+Close the requirement with time-aligned measurements at the mechanism under the agreed conditions. A controller event log covers only the internal portion of the interval. The controls and mechanical leads jointly review the physical trace. Reopen the allocation when the payload, brake or sensing path changes. Derive project values from the relevant hazard analysis.

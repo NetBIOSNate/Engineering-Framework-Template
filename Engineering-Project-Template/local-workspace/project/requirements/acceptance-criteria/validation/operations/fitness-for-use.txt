@@ -1,0 +1,10 @@
+Validate fitness for an operating situation
+
+Determine whether a delivered capability lets representative people accomplish the mission under conditions they actually encounter.
+
+1. Select participants who experience the consequences of success and failure, including relief operators, service recipients and maintainers. Write a short mission story with a meaningful end condition and the constraints people must work within.
+2. Select cases that could separate technical conformance from mission success. For a field replacement, present an unfamiliar technician with the released procedure, normal tools, gloves, low light and an unexpected interruption. Observe recovery without coaching.
+3. Agree in advance on success measures and unacceptable outcomes. Example measures include correct unit returned to service, elapsed time, assistance requests and whether the interrupted operator can determine the next safe action. Record environmental conditions and participant experience so later readers know where the result applies.
+4. Trace each issue to a need, requirement, architectural choice or training assumption. Decide who can accept the shortfall, who funds correction and which situations require revalidation after change.
+
+Review output. The operational authority records accepted use conditions, limitations and follow-up evidence separately from the engineering verification verdict.

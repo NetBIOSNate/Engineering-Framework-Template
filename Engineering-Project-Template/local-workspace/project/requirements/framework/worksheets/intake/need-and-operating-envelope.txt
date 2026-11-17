@@ -1,0 +1,20 @@
+Worksheet | Need and operating envelope
+
+Use this at the start of a project or when changing a boundary. Enter one real event with a person who experienced it. Carry the source and scope into the resulting requirement.
+
+Project and system of interest       [Name and decision date]
+Need ID and revision                 [Stable ID and revision]
+Affected person or organization      [Role and context]
+Source and confidence                [Observation, interview or agreement, date and limitations]
+Mission event                        [Trigger, actor, intended outcome, observable completion]
+Cost of the present failure          [Who experiences what loss, how often and with what evidence]
+Success measure and guardrail        [Boundary, units, target population and collateral effects]
+Inside the system boundary           [Elements, work and authority owned here]
+Outside the boundary                 [Named neighbors, dependencies and owners]
+Operating envelope                   [Modes, loads, variants and environments]
+Degraded/care/retirement scenario    [What continues, what stops, who takes control]
+Binding constraints                  [Limit, authoritative source, waiver authority]
+Largest open assumption              [Fact to establish, how, owner, date, blocked decision]
+Validation authority                 [Role that judges mission success in the field]
+
+Walk the scenario with an operator and a maintainer. Ask each person to identify a handoff with ambiguous ownership. Record disputed facts against their sources. Obtain the outcome owner's decision on whether a system change is warranted.

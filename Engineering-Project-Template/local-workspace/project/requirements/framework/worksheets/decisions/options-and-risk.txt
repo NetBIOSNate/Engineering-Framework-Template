@@ -1,0 +1,18 @@
+Worksheet | Decision, options and residual exposure
+
+Decision ID and date             [Choice and last responsible decision date]
+Authority and participants       [Who commits resources, who experiences the risk]
+Driver IDs and binding limits    [Requirements, source and applicability]
+Feasible options                 [Include continuing the present arrangement when credible]
+Approach A / approach B          [Boundary, ownership, interfaces and obligations under each]
+Comparison basis                 [Same workload, sites, configuration, horizon and units]
+Evidence by option               [Measured, analyzed, estimated or unknown with provenance]
+Dominant uncertainty             [Input range, effect and point where preference changes]
+Failure or common cause          [How the option could defeat multiple obligations]
+Whole-life consequences          [Acquisition, operation, service, change and retirement]
+Decision and rejected options    [What the owner commits to and why each other option lost]
+Residual exposure                [Consequence, party carrying it and permitted scope]
+Revisit trigger and fallback     [Observation, threshold/date, decision owner and available action]
+Derived requirements             [IDs for controls or obligations created by the decision]
+
+Ask an advocate for the less-favored option to identify a circumstance in which it would be preferable. If a plausible circumstance changes the ranking, arrange a small investigation before the commitment date. Put the result and unresolved disagreement next to the selected option.
